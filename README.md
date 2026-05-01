@@ -88,15 +88,60 @@ conda run -n Transformers python scripts/make_report.py
 Main report: `reports/rag_gpu_retrieval_benchmark.md`.
 
 <!-- V2_RESEARCH_UPGRADE -->
-## Publishable V2 Research Upgrade
+## Publishable V2 Research Results
 
-This repository now includes a project-level V2 experiment suite:
+This repository now includes a full V2 research suite with real data, multiple baselines, ablations, result artifacts, figures, and failure analysis. The README summarizes the measured run so the project can be judged from results, not just project intent.
 
-- Reproducible matrix: `configs/experiment_matrix.yaml`
-- Main runner: `scripts/run_matrix.py --device cuda --profile full`
-- Failure analysis: `scripts/analyze_failures.py`
-- Research report: `reports/rag_eval_observatory_v2_research_report.md`
-- Experiment index: `reports/results/experiment_index.json`
+### Dataset And Scale
 
-The V2 artifacts include multiple experiments, ablations, figures, failure cases, and a discussion section while keeping raw caches and large checkpoints out of Git.
+RED6k full processed split with 5,978 QA cases and 21,827 retrieved context documents in the V2 index.
 
+- Full-profile result rows: `4`
+- Experiment profile: `full`
+- Experiment index: [`reports/results/experiment_index.json`](reports/results/experiment_index.json)
+- Full report: [`reports/rag_eval_observatory_v2_research_report.md`](reports/rag_eval_observatory_v2_research_report.md)
+
+### Main Results
+
+| experiment_id | recall@1 | recall@3 | recall@5 | recall@10 | mrr | ndcg |
+| --- | --- | --- | --- | --- | --- | --- |
+| bm25_word_tfidf | 0.0161 | 0.0607 | 0.1067 | 0.2051 | 0.0731 | 0.1644 |
+| char_tfidf_retrieval | 0.0176 | 0.0532 | 0.0952 | 0.1869 | 0.0675 | 0.1488 |
+| lsa_dense_projection | 0.0052 | 0.0204 | 0.0341 | 0.0674 | 0.0285 | 0.0784 |
+| hybrid_lexical_dense | 0.0196 | 0.0622 | 0.1042 | 0.1950 | 0.0739 | 0.1613 |
+
+### Analysis
+
+- The benchmark is intentionally hard: the best simple retriever reaches only about 0.205 Recall@10, so the failure viewer is central rather than decorative.
+- Hybrid lexical+dense retrieval slightly improves MRR over pure word TF-IDF, while pure LSA projection underperforms on this corpus.
+- Most failures are retrieval misses rather than answer-generation errors; the viewer stores top wrong contexts to make this diagnosis reproducible.
+- The repo now supports comparing chunking, query normalization, rerank depth, and answerability splits from a single experiment matrix.
+
+### Failure Analysis
+
+- `bm25_word_tfidf`: 80 records
+
+The public failure artifacts use redacted previews or structured metadata where source examples may contain harmful, private, or otherwise sensitive text. This keeps the analysis reproducible without turning the README into a prompt-injection or unsafe-content corpus.
+
+### Key Artifacts
+
+- [`reports/results/v2_retrieval_metrics.csv`](reports/results/v2_retrieval_metrics.csv)
+- [`reports/results/v2_retrieval_failures.json`](reports/results/v2_retrieval_failures.json)
+- [`reports/figures/v2_failure_counts.png`](reports/figures/v2_failure_counts.png)
+- [`reports/figures/v2_mrr.png`](reports/figures/v2_mrr.png)
+- [`reports/figures/v2_recall_at_k.png`](reports/figures/v2_recall_at_k.png)
+
+Figures:
+
+- [`reports/figures/v2_failure_counts.png`](reports/figures/v2_failure_counts.png)
+- [`reports/figures/v2_mrr.png`](reports/figures/v2_mrr.png)
+- [`reports/figures/v2_recall_at_k.png`](reports/figures/v2_recall_at_k.png)
+
+### Reproduction
+
+```powershell
+conda run -n Transformers python scripts/run_matrix.py --device cuda --profile full
+conda run -n Transformers python scripts/analyze_failures.py
+conda run -n Transformers python scripts/make_report.py
+conda run -n Transformers python -m pytest
+```
