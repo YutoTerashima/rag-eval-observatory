@@ -1,0 +1,14 @@
+[
+  {
+    "doc_id": "agent-traces",
+    "text": "Trace grading inspects messages, tool calls, and final answers."
+  },
+  {
+    "doc_id": "rag-metrics",
+    "text": "Context precision and context recall describe retrieval quality."
+  },
+  {
+    "doc_id": "kendo",
+    "text": "Isshin furan means focused attention without distraction."
+  }
+]

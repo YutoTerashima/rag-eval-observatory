@@ -24,3 +24,12 @@ pytest
 question=What does trace grading inspect?
 precision=1.00 recall=1.00 faithfulness=1.00 source=no_failure
 ```
+
+## Research Brief
+
+See [`docs/research_brief.md`](docs/research_brief.md) for the problem framing,
+metric design, limitations, and next experiments.
+
+## Portfolio Notes
+
+This project shows evaluation taste: failures are assigned to retrieval, generation, or grounding rather than treated as one opaque score.
