@@ -1,0 +1,146 @@
+[
+  {
+    "case_id": "RAG-001",
+    "question": "What does the agent note describe?",
+    "gold_doc": "DOC-001",
+    "topic": "agent"
+  },
+  {
+    "case_id": "RAG-002",
+    "question": "What does the policy note describe?",
+    "gold_doc": "DOC-002",
+    "topic": "policy"
+  },
+  {
+    "case_id": "RAG-003",
+    "question": "What does the rag note describe?",
+    "gold_doc": "DOC-003",
+    "topic": "rag"
+  },
+  {
+    "case_id": "RAG-004",
+    "question": "What does the benchmark note describe?",
+    "gold_doc": "DOC-004",
+    "topic": "benchmark"
+  },
+  {
+    "case_id": "RAG-005",
+    "question": "What does the prompt note describe?",
+    "gold_doc": "DOC-005",
+    "topic": "prompt"
+  },
+  {
+    "case_id": "RAG-006",
+    "question": "What does the transformer note describe?",
+    "gold_doc": "DOC-006",
+    "topic": "transformer"
+  },
+  {
+    "case_id": "RAG-007",
+    "question": "What does the agent note describe?",
+    "gold_doc": "DOC-007",
+    "topic": "agent"
+  },
+  {
+    "case_id": "RAG-008",
+    "question": "What does the policy note describe?",
+    "gold_doc": "DOC-008",
+    "topic": "policy"
+  },
+  {
+    "case_id": "RAG-009",
+    "question": "What does the rag note describe?",
+    "gold_doc": "DOC-009",
+    "topic": "rag"
+  },
+  {
+    "case_id": "RAG-010",
+    "question": "What does the benchmark note describe?",
+    "gold_doc": "DOC-010",
+    "topic": "benchmark"
+  },
+  {
+    "case_id": "RAG-011",
+    "question": "What does the prompt note describe?",
+    "gold_doc": "DOC-011",
+    "topic": "prompt"
+  },
+  {
+    "case_id": "RAG-012",
+    "question": "What does the transformer note describe?",
+    "gold_doc": "DOC-012",
+    "topic": "transformer"
+  },
+  {
+    "case_id": "RAG-013",
+    "question": "What does the agent note describe?",
+    "gold_doc": "DOC-013",
+    "topic": "agent"
+  },
+  {
+    "case_id": "RAG-014",
+    "question": "What does the policy note describe?",
+    "gold_doc": "DOC-014",
+    "topic": "policy"
+  },
+  {
+    "case_id": "RAG-015",
+    "question": "What does the rag note describe?",
+    "gold_doc": "DOC-015",
+    "topic": "rag"
+  },
+  {
+    "case_id": "RAG-016",
+    "question": "What does the benchmark note describe?",
+    "gold_doc": "DOC-016",
+    "topic": "benchmark"
+  },
+  {
+    "case_id": "RAG-017",
+    "question": "What does the prompt note describe?",
+    "gold_doc": "DOC-017",
+    "topic": "prompt"
+  },
+  {
+    "case_id": "RAG-018",
+    "question": "What does the transformer note describe?",
+    "gold_doc": "DOC-018",
+    "topic": "transformer"
+  },
+  {
+    "case_id": "RAG-019",
+    "question": "What does the agent note describe?",
+    "gold_doc": "DOC-019",
+    "topic": "agent"
+  },
+  {
+    "case_id": "RAG-020",
+    "question": "What does the policy note describe?",
+    "gold_doc": "DOC-020",
+    "topic": "policy"
+  },
+  {
+    "case_id": "RAG-021",
+    "question": "What does the rag note describe?",
+    "gold_doc": "DOC-021",
+    "topic": "rag"
+  },
+  {
+    "case_id": "RAG-022",
+    "question": "What does the benchmark note describe?",
+    "gold_doc": "DOC-022",
+    "topic": "benchmark"
+  },
+  {
+    "case_id": "RAG-023",
+    "question": "What does the prompt note describe?",
+    "gold_doc": "DOC-023",
+    "topic": "prompt"
+  },
+  {
+    "case_id": "RAG-024",
+    "question": "What does the transformer note describe?",
+    "gold_doc": "DOC-024",
+    "topic": "transformer"
+  }
+]

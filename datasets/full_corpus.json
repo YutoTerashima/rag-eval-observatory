@@ -1,0 +1,182 @@
+[
+  {
+    "doc_id": "DOC-001",
+    "topic": "agent",
+    "text": "Agent traces record messages, tool calls, observations, and final answers. Example note 1."
+  },
+  {
+    "doc_id": "DOC-002",
+    "topic": "policy",
+    "text": "Tool policies authorize actions before execution and preserve auditability. Example note 2."
+  },
+  {
+    "doc_id": "DOC-003",
+    "topic": "rag",
+    "text": "RAG evaluation separates retrieval quality, grounding, and generation quality. Example note 3."
+  },
+  {
+    "doc_id": "DOC-004",
+    "topic": "benchmark",
+    "text": "Benchmark cards document metrics, reproduction commands, and limitations. Example note 4."
+  },
+  {
+    "doc_id": "DOC-005",
+    "topic": "prompt",
+    "text": "Prompt robustness tests compare variants over stable cases. Example note 5."
+  },
+  {
+    "doc_id": "DOC-006",
+    "topic": "transformer",
+    "text": "Transformer blocks combine attention, normalization, and feed-forward layers. Example note 6."
+  },
+  {
+    "doc_id": "DOC-007",
+    "topic": "agent",
+    "text": "Agent traces record messages, tool calls, observations, and final answers. Example note 7."
+  },
+  {
+    "doc_id": "DOC-008",
+    "topic": "policy",
+    "text": "Tool policies authorize actions before execution and preserve auditability. Example note 8."
+  },
+  {
+    "doc_id": "DOC-009",
+    "topic": "rag",
+    "text": "RAG evaluation separates retrieval quality, grounding, and generation quality. Example note 9."
+  },
+  {
+    "doc_id": "DOC-010",
+    "topic": "benchmark",
+    "text": "Benchmark cards document metrics, reproduction commands, and limitations. Example note 10."
+  },
+  {
+    "doc_id": "DOC-011",
+    "topic": "prompt",
+    "text": "Prompt robustness tests compare variants over stable cases. Example note 11."
+  },
+  {
+    "doc_id": "DOC-012",
+    "topic": "transformer",
+    "text": "Transformer blocks combine attention, normalization, and feed-forward layers. Example note 12."
+  },
+  {
+    "doc_id": "DOC-013",
+    "topic": "agent",
+    "text": "Agent traces record messages, tool calls, observations, and final answers. Example note 13."
+  },
+  {
+    "doc_id": "DOC-014",
+    "topic": "policy",
+    "text": "Tool policies authorize actions before execution and preserve auditability. Example note 14."
+  },
+  {
+    "doc_id": "DOC-015",
+    "topic": "rag",
+    "text": "RAG evaluation separates retrieval quality, grounding, and generation quality. Example note 15."
+  },
+  {
+    "doc_id": "DOC-016",
+    "topic": "benchmark",
+    "text": "Benchmark cards document metrics, reproduction commands, and limitations. Example note 16."
+  },
+  {
+    "doc_id": "DOC-017",
+    "topic": "prompt",
+    "text": "Prompt robustness tests compare variants over stable cases. Example note 17."
+  },
+  {
+    "doc_id": "DOC-018",
+    "topic": "transformer",
+    "text": "Transformer blocks combine attention, normalization, and feed-forward layers. Example note 18."
+  },
+  {
+    "doc_id": "DOC-019",
+    "topic": "agent",
+    "text": "Agent traces record messages, tool calls, observations, and final answers. Example note 19."
+  },
+  {
+    "doc_id": "DOC-020",
+    "topic": "policy",
+    "text": "Tool policies authorize actions before execution and preserve auditability. Example note 20."
+  },
+  {
+    "doc_id": "DOC-021",
+    "topic": "rag",
+    "text": "RAG evaluation separates retrieval quality, grounding, and generation quality. Example note 21."
+  },
+  {
+    "doc_id": "DOC-022",
+    "topic": "benchmark",
+    "text": "Benchmark cards document metrics, reproduction commands, and limitations. Example note 22."
+  },
+  {
+    "doc_id": "DOC-023",
+    "topic": "prompt",
+    "text": "Prompt robustness tests compare variants over stable cases. Example note 23."
+  },
+  {
+    "doc_id": "DOC-024",
+    "topic": "transformer",
+    "text": "Transformer blocks combine attention, normalization, and feed-forward layers. Example note 24."
+  },
+  {
+    "doc_id": "DOC-025",
+    "topic": "agent",
+    "text": "Agent traces record messages, tool calls, observations, and final answers. Example note 25."
+  },
+  {
+    "doc_id": "DOC-026",
+    "topic": "policy",
+    "text": "Tool policies authorize actions before execution and preserve auditability. Example note 26."
+  },
+  {
+    "doc_id": "DOC-027",
+    "topic": "rag",
+    "text": "RAG evaluation separates retrieval quality, grounding, and generation quality. Example note 27."
+  },
+  {
+    "doc_id": "DOC-028",
+    "topic": "benchmark",
+    "text": "Benchmark cards document metrics, reproduction commands, and limitations. Example note 28."
+  },
+  {
+    "doc_id": "DOC-029",
+    "topic": "prompt",
+    "text": "Prompt robustness tests compare variants over stable cases. Example note 29."
+  },
+  {
+    "doc_id": "DOC-030",
+    "topic": "transformer",
+    "text": "Transformer blocks combine attention, normalization, and feed-forward layers. Example note 30."
+  },
+  {
+    "doc_id": "DOC-031",
+    "topic": "agent",
+    "text": "Agent traces record messages, tool calls, observations, and final answers. Example note 31."
+  },
+  {
+    "doc_id": "DOC-032",
+    "topic": "policy",
+    "text": "Tool policies authorize actions before execution and preserve auditability. Example note 32."
+  },
+  {
+    "doc_id": "DOC-033",
+    "topic": "rag",
+    "text": "RAG evaluation separates retrieval quality, grounding, and generation quality. Example note 33."
+  },
+  {
+    "doc_id": "DOC-034",
+    "topic": "benchmark",
+    "text": "Benchmark cards document metrics, reproduction commands, and limitations. Example note 34."
+  },
+  {
+    "doc_id": "DOC-035",
+    "topic": "prompt",
+    "text": "Prompt robustness tests compare variants over stable cases. Example note 35."
+  },
+  {
+    "doc_id": "DOC-036",
+    "topic": "transformer",
+    "text": "Transformer blocks combine attention, normalization, and feed-forward layers. Example note 36."
+  }
+]

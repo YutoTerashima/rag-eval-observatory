@@ -51,3 +51,10 @@ per-case retrieved evidence, and failure-source distribution.
 In addition to the simple transparent retriever, the project includes a small
 BM25-style index (`rag_eval_observatory.bm25`) and a dataset evaluation pipeline.
 This gives the repository a realistic retrieval baseline without external services.
+
+## Full RAG Dataset
+
+The repository includes a 36-document corpus and 24 QA cases:
+[`datasets/full_corpus.json`](datasets/full_corpus.json),
+[`datasets/full_qa_cases.json`](datasets/full_qa_cases.json), and
+[`reports/full_rag_analysis.md`](reports/full_rag_analysis.md).

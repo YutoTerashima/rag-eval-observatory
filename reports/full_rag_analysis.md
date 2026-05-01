@@ -1,0 +1,30 @@
+# Full RAG Analysis
+
+        The full dataset contains 36 documents and 24 QA cases across six topics. It is
+        small enough to inspect manually but large enough to exercise corpus loading,
+        topic drift, hit@k, and failure attribution.
+
+        | case_id | gold_doc | retrieved | hit_at_3 | topic |
+| --- | --- | --- | --- | --- |
+| RAG-001 | DOC-001 | DOC-001,DOC-007,DOC-013 | True | agent |
+| RAG-002 | DOC-002 | DOC-002,DOC-008,DOC-014 | True | policy |
+| RAG-003 | DOC-003 | DOC-003,DOC-009,DOC-015 | True | rag |
+| RAG-004 | DOC-004 | DOC-004,DOC-010,DOC-016 | True | benchmark |
+| RAG-005 | DOC-005 | DOC-005,DOC-011,DOC-017 | True | prompt |
+| RAG-006 | DOC-006 | DOC-006,DOC-012,DOC-018 | True | transformer |
+| RAG-007 | DOC-007 | DOC-001,DOC-007,DOC-013 | True | agent |
+| RAG-008 | DOC-008 | DOC-002,DOC-008,DOC-014 | True | policy |
+| RAG-009 | DOC-009 | DOC-003,DOC-009,DOC-015 | True | rag |
+| RAG-010 | DOC-010 | DOC-004,DOC-010,DOC-016 | True | benchmark |
+| RAG-011 | DOC-011 | DOC-005,DOC-011,DOC-017 | True | prompt |
+| RAG-012 | DOC-012 | DOC-006,DOC-012,DOC-018 | True | transformer |
+
+        ## Aggregate
+
+        - Cases: 24
+        - Hit@3: 0.750
+
+        ## Interpretation
+
+        The dataset is intentionally transparent. A real deployment can replace the corpus
+        with domain documents while preserving the same evaluation pipeline and reports.
