@@ -63,3 +63,11 @@ The repository includes a 36-document corpus and 24 QA cases:
 
 `rag_eval_observatory.metrics` computes hit rate, MRR, and nDCG for full retrieval
 runs. Use `examples/run_full_pipeline.py` to regenerate `reports/full_pipeline_results.json`.
+
+## Real Public Dataset Experiment
+
+        `datasets/external/rag_eval_6k_sample.jsonl` contains a real sample from
+        [aizip/Rag-Eval-Dataset-6k](https://huggingface.co/datasets/aizip/Rag-Eval-Dataset-6k).
+        The report in `reports/real_rag_eval_6k_analysis.md` profiles answerability, difficulty,
+        context count, and lexical overlap so the observatory can analyze retrieval conditions
+        before generation.

@@ -1,0 +1,16 @@
+{
+  "source_dataset": "aizip/Rag-Eval-Dataset-6k",
+  "source_url": "https://huggingface.co/datasets/aizip/Rag-Eval-Dataset-6k",
+  "sample_size": 120,
+  "difficulty_counts": {
+    "medium": 60,
+    "hard": 47,
+    "easy": 13
+  },
+  "answerable_counts": {
+    "True": 113,
+    "False": 7
+  },
+  "avg_question_context_overlap": 0.625,
+  "avg_num_contexts": 3.758
+}
