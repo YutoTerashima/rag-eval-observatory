@@ -45,3 +45,9 @@ per-case retrieved evidence, and failure-source distribution.
 - QA cases: [`datasets/qa_cases.json`](datasets/qa_cases.json)
 - Results: [`reports/rag_eval_results.csv`](reports/rag_eval_results.csv), [`reports/rag_eval_results.json`](reports/rag_eval_results.json)
 - Analysis: [`reports/retrieval_failure_analysis.md`](reports/retrieval_failure_analysis.md)
+
+## Retrieval Engine
+
+In addition to the simple transparent retriever, the project includes a small
+BM25-style index (`rag_eval_observatory.bm25`) and a dataset evaluation pipeline.
+This gives the repository a realistic retrieval baseline without external services.

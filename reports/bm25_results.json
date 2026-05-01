@@ -1,0 +1,90 @@
+[
+  {
+    "case_id": "Q001",
+    "gold_doc": "D002",
+    "retrieved": [
+      "D002",
+      "D003"
+    ],
+    "scores": {
+      "D002": 2.9051,
+      "D003": 1.8149
+    },
+    "hit_at_k": true,
+    "rank": 1
+  },
+  {
+    "case_id": "Q002",
+    "gold_doc": "D003",
+    "retrieved": [
+      "D003",
+      "D002"
+    ],
+    "scores": {
+      "D003": 3.5863,
+      "D002": 1.2111
+    },
+    "hit_at_k": true,
+    "rank": 1
+  },
+  {
+    "case_id": "Q003",
+    "gold_doc": "D007",
+    "retrieved": [
+      "D007",
+      "D001",
+      "D008"
+    ],
+    "scores": {
+      "D007": 6.3657,
+      "D001": 1.2663,
+      "D008": 1.2663
+    },
+    "hit_at_k": true,
+    "rank": 1
+  },
+  {
+    "case_id": "Q004",
+    "gold_doc": "D008",
+    "retrieved": [
+      "D008",
+      "D007",
+      "D001"
+    ],
+    "scores": {
+      "D008": 6.0753,
+      "D007": 1.3269,
+      "D001": 1.2663
+    },
+    "hit_at_k": true,
+    "rank": 1
+  },
+  {
+    "case_id": "Q005",
+    "gold_doc": "D006",
+    "retrieved": [
+      "D006"
+    ],
+    "scores": {
+      "D006": 3.8984
+    },
+    "hit_at_k": true,
+    "rank": 1
+  },
+  {
+    "case_id": "Q006",
+    "gold_doc": "D999",
+    "retrieved": [
+      "D002",
+      "D004",
+      "D005"
+    ],
+    "scores": {
+      "D002": 1.694,
+      "D004": 1.2663,
+      "D005": 1.2663
+    },
+    "hit_at_k": false,
+    "rank": null
+  }
+]
