@@ -1,0 +1,9 @@
+{
+  "kind": "retrieval",
+  "dataset": "aizip/Rag-Eval-Dataset-6k",
+  "config": "default",
+  "split": "train",
+  "report": "rag_gpu_retrieval_benchmark.md",
+  "title": "RAG GPU Retrieval Benchmark",
+  "description": "BM25-style lexical retrieval versus GPU dense hashing retrieval on real RAG cases."
+}

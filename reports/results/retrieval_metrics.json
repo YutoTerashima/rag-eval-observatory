@@ -1,0 +1,30 @@
+{
+  "dataset": "aizip/Rag-Eval-Dataset-6k",
+  "rows": 384,
+  "device": {
+    "requested_device": "cuda",
+    "actual_device": "cuda",
+    "cuda_available": true,
+    "gpu_name": "NVIDIA GeForce RTX 5090 Laptop GPU",
+    "torch_version": "2.10.0+cu128",
+    "cuda_runtime": "12.8"
+  },
+  "retrievers": [
+    {
+      "retriever": "tfidf_lexical",
+      "recall@1": 0.0312,
+      "recall@3": 0.0781,
+      "recall@5": 0.1172,
+      "mrr": 0.0856,
+      "ndcg": 0.2324
+    },
+    {
+      "retriever": "gpu_dense_tfidf",
+      "recall@1": 0.0312,
+      "recall@3": 0.0781,
+      "recall@5": 0.1172,
+      "mrr": 0.0856,
+      "ndcg": 0.2324
+    }
+  ]
+}

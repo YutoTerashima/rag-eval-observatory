@@ -71,3 +71,18 @@ runs. Use `examples/run_full_pipeline.py` to regenerate `reports/full_pipeline_r
         The report in `reports/real_rag_eval_6k_analysis.md` profiles answerability, difficulty,
         context count, and lexical overlap so the observatory can analyze retrieval conditions
         before generation.
+
+## GPU-Backed Real Experiment
+
+This repository now includes a reproducible GPU-backed experiment using `aizip/Rag-Eval-Dataset-6k`.
+The smoke path runs on the local RTX 5090 Laptop GPU through the `Transformers` conda
+environment and writes metrics, figures, and a markdown report.
+
+```powershell
+conda run -n Transformers python scripts/download_data.py --smoke
+conda run -n Transformers python scripts/preprocess_data.py --max-samples 384
+conda run -n Transformers python scripts/run_experiment.py --device cuda --smoke
+conda run -n Transformers python scripts/make_report.py
+```
+
+Main report: `reports/rag_gpu_retrieval_benchmark.md`.
