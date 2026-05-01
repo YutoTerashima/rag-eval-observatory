@@ -33,3 +33,15 @@ metric design, limitations, and next experiments.
 ## Portfolio Notes
 
 This project shows evaluation taste: failures are assigned to retrieval, generation, or grounding rather than treated as one opaque score.
+
+## Deeper Analysis
+
+`examples/run_diagnostics.py` computes average recall, average faithfulness,
+per-case retrieved evidence, and failure-source distribution.
+
+## Experiment Artifacts
+
+- Corpus: [`datasets/corpus.json`](datasets/corpus.json)
+- QA cases: [`datasets/qa_cases.json`](datasets/qa_cases.json)
+- Results: [`reports/rag_eval_results.csv`](reports/rag_eval_results.csv), [`reports/rag_eval_results.json`](reports/rag_eval_results.json)
+- Analysis: [`reports/retrieval_failure_analysis.md`](reports/retrieval_failure_analysis.md)

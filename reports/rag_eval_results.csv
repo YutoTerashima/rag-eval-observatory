@@ -1,0 +1,7 @@
+case_id,gold_doc,retrieved,precision,recall,faithfulness,failure_source
+Q001,D002,"D002,D003,D005",0.333,1.0,1.0,no_failure
+Q002,D003,"D003,D002,D005",0.333,1.0,1.0,no_failure
+Q003,D007,"D007,D001,D008",0.333,1.0,1.0,no_failure
+Q004,D008,"D008,D001,D007",0.333,1.0,1.0,no_failure
+Q005,D006,D006,1.0,1.0,1.0,no_failure
+Q006,D999,,0.0,0.0,0.0,missing_gold

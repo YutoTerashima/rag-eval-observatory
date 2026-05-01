@@ -1,0 +1,32 @@
+[
+  {
+    "case_id": "Q001",
+    "question": "What does context precision measure?",
+    "gold_doc": "D002"
+  },
+  {
+    "case_id": "Q002",
+    "question": "What does context recall measure?",
+    "gold_doc": "D003"
+  },
+  {
+    "case_id": "Q003",
+    "question": "What should benchmark cards include?",
+    "gold_doc": "D007"
+  },
+  {
+    "case_id": "Q004",
+    "question": "What should tool policies deny?",
+    "gold_doc": "D008"
+  },
+  {
+    "case_id": "Q005",
+    "question": "What does kendo practice emphasize?",
+    "gold_doc": "D006"
+  },
+  {
+    "case_id": "Q006",
+    "question": "What is the deployment SLA?",
+    "gold_doc": "D999"
+  }
+]

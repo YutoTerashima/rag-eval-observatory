@@ -1,0 +1,34 @@
+[
+  {
+    "doc_id": "D001",
+    "text": "Agent traces include messages, tool calls, observations, and final answers."
+  },
+  {
+    "doc_id": "D002",
+    "text": "Context precision measures whether retrieved passages are useful for the answer."
+  },
+  {
+    "doc_id": "D003",
+    "text": "Context recall measures whether expected evidence appears in retrieved context."
+  },
+  {
+    "doc_id": "D004",
+    "text": "Faithfulness checks whether an answer is grounded in retrieved evidence."
+  },
+  {
+    "doc_id": "D005",
+    "text": "Prompt robustness is measured by stable behavior across prompt variants."
+  },
+  {
+    "doc_id": "D006",
+    "text": "Kendo practice emphasizes focused attention and disciplined repetition."
+  },
+  {
+    "doc_id": "D007",
+    "text": "Benchmark cards should include metrics, reproduction commands, and limitations."
+  },
+  {
+    "doc_id": "D008",
+    "text": "Tool policies should deny high-impact tools unless explicit approval exists."
+  }
+]

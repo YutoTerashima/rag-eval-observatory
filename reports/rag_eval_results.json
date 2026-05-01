@@ -1,0 +1,56 @@
+[
+  {
+    "case_id": "Q001",
+    "gold_doc": "D002",
+    "retrieved": "D002,D003,D005",
+    "precision": 0.333,
+    "recall": 1.0,
+    "faithfulness": 1.0,
+    "failure_source": "no_failure"
+  },
+  {
+    "case_id": "Q002",
+    "gold_doc": "D003",
+    "retrieved": "D003,D002,D005",
+    "precision": 0.333,
+    "recall": 1.0,
+    "faithfulness": 1.0,
+    "failure_source": "no_failure"
+  },
+  {
+    "case_id": "Q003",
+    "gold_doc": "D007",
+    "retrieved": "D007,D001,D008",
+    "precision": 0.333,
+    "recall": 1.0,
+    "faithfulness": 1.0,
+    "failure_source": "no_failure"
+  },
+  {
+    "case_id": "Q004",
+    "gold_doc": "D008",
+    "retrieved": "D008,D001,D007",
+    "precision": 0.333,
+    "recall": 1.0,
+    "faithfulness": 1.0,
+    "failure_source": "no_failure"
+  },
+  {
+    "case_id": "Q005",
+    "gold_doc": "D006",
+    "retrieved": "D006",
+    "precision": 1.0,
+    "recall": 1.0,
+    "faithfulness": 1.0,
+    "failure_source": "no_failure"
+  },
+  {
+    "case_id": "Q006",
+    "gold_doc": "D999",
+    "retrieved": "",
+    "precision": 0.0,
+    "recall": 0.0,
+    "faithfulness": 0.0,
+    "failure_source": "missing_gold"
+  }
+]
