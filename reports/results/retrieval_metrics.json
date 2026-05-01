@@ -1,6 +1,6 @@
 {
   "dataset": "aizip/Rag-Eval-Dataset-6k",
-  "rows": 384,
+  "rows": 3000,
   "device": {
     "requested_device": "cuda",
     "actual_device": "cuda",
@@ -12,19 +12,19 @@
   "retrievers": [
     {
       "retriever": "tfidf_lexical",
-      "recall@1": 0.0312,
-      "recall@3": 0.0781,
-      "recall@5": 0.1172,
-      "mrr": 0.0856,
-      "ndcg": 0.2324
+      "recall@1": 0.0293,
+      "recall@3": 0.076,
+      "recall@5": 0.1067,
+      "mrr": 0.0758,
+      "ndcg": 0.2071
     },
     {
       "retriever": "gpu_dense_tfidf",
-      "recall@1": 0.0312,
-      "recall@3": 0.0781,
-      "recall@5": 0.1172,
-      "mrr": 0.0856,
-      "ndcg": 0.2324
+      "recall@1": 0.0293,
+      "recall@3": 0.076,
+      "recall@5": 0.1067,
+      "mrr": 0.0758,
+      "ndcg": 0.2071
     }
   ]
 }
