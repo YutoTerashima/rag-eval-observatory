@@ -1,0 +1,71 @@
+{
+  "title": "RAG Eval Observatory V2",
+  "kind": "rag",
+  "dataset_path": "data/processed/rag_cases.jsonl",
+  "profile": "full",
+  "generated_at": "2026-05-02 08:01:06",
+  "git_commit": "205b48c",
+  "device": {
+    "requested_device": "cuda",
+    "actual_device": "cuda",
+    "cuda_available": true,
+    "gpu_name": "NVIDIA GeForce RTX 5090 Laptop GPU",
+    "torch_version": "2.10.0+cu128",
+    "cuda_runtime": "12.8"
+  },
+  "results": [
+    {
+      "experiment_id": "bm25_word_tfidf",
+      "recall@1": 0.01605888256942121,
+      "recall@3": 0.06072264971562395,
+      "recall@5": 0.10672465707594513,
+      "recall@10": 0.20508531281365006,
+      "mrr": 0.07309352086540534,
+      "ndcg": 0.1644327145096185,
+      "rows": 5978,
+      "documents": 21827
+    },
+    {
+      "experiment_id": "char_tfidf_retrieval",
+      "recall@1": 0.01756440281030445,
+      "recall@3": 0.05319504851120776,
+      "recall@5": 0.09518233522917363,
+      "recall@10": 0.1868517898962864,
+      "mrr": 0.06754474759359158,
+      "ndcg": 0.14876045847643896,
+      "rows": 5978,
+      "documents": 21827
+    },
+    {
+      "experiment_id": "lsa_dense_projection",
+      "recall@1": 0.0051856808297089324,
+      "recall@3": 0.02040816326530612,
+      "recall@5": 0.03412512546002008,
+      "recall@10": 0.06741385078621613,
+      "mrr": 0.02848933638194238,
+      "ndcg": 0.07837366985442588,
+      "rows": 5978,
+      "documents": 21827
+    },
+    {
+      "experiment_id": "hybrid_lexical_dense",
+      "recall@1": 0.019571763131482102,
+      "recall@3": 0.06222816995650719,
+      "recall@5": 0.10421545667447307,
+      "recall@10": 0.1950485112077618,
+      "mrr": 0.0738550519636121,
+      "ndcg": 0.1613106245883801,
+      "rows": 5978,
+      "documents": 21827
+    }
+  ],
+  "artifacts": [
+    "reports\\results\\v2_retrieval_metrics.csv",
+    "reports\\results\\v2_retrieval_failures.json",
+    "reports\\figures\\v2_failure_counts.png",
+    "reports\\figures\\v2_mrr.png",
+    "reports\\figures\\v2_recall_at_k.png"
+  ],
+  "discussion": "RAG failures usually look like generation failures, but the root cause is often retrieval miss or answerability confusion. V2 separates retrieval recall from answerability-aware diagnostics.",
+  "total_runtime_seconds": 48.477
+}

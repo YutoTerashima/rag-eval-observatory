@@ -1,0 +1,33 @@
+{
+  "kind": "rag",
+  "title": "RAG Eval Observatory V2",
+  "report": "rag_eval_observatory_v2_research_report.md",
+  "dataset_path": "data/processed/rag_cases.jsonl",
+  "max_rows_full": 5978,
+  "max_rows_smoke": 300,
+  "experiments": [
+    {
+      "id": "bm25_word_tfidf",
+      "method": "tfidf_word"
+    },
+    {
+      "id": "char_tfidf_retrieval",
+      "method": "tfidf_char"
+    },
+    {
+      "id": "lsa_dense_projection",
+      "method": "lsa_dense"
+    },
+    {
+      "id": "hybrid_lexical_dense",
+      "method": "hybrid"
+    }
+  ],
+  "ablations": [
+    "top_k",
+    "query_normalization",
+    "rerank_depth",
+    "answerability_split"
+  ],
+  "discussion": "RAG failures usually look like generation failures, but the root cause is often retrieval miss or answerability confusion. V2 separates retrieval recall from answerability-aware diagnostics."
+}

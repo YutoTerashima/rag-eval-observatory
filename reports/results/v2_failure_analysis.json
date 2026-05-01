@@ -1,0 +1,211 @@
+{
+  "total_failure_records": 80,
+  "clusters": [
+    {
+      "cluster": "bm25_word_tfidf",
+      "count": 80
+    }
+  ],
+  "examples": [
+    {
+      "method": "bm25_word_tfidf",
+      "case_id": "case-00000",
+      "question": "What was the outcome of the legal proceedings involving the individual charged in Oklahoma?",
+      "answerable": true,
+      "difficulty": "medium",
+      "top_context": "3d 286, 294-295. Ultimately, this Court declined to entertain the State's first argument but agreed to review the second. Nominally, the question comes to us in a case involving Victor CastroHuerta, a non-Indian who abused his Cherokee stepdaughter within the "
+    },
+    {
+      "method": "bm25_word_tfidf",
+      "case_id": "case-00001",
+      "question": "How does the jurisdiction apply in cases involving crimes committed by non-Indians against Indians in certain areas?",
+      "answerable": true,
+      "difficulty": "hard",
+      "top_context": "Under the Court's precedents, as we will explain, a State's jurisdiction in Indian country may be preempted (i) by federal law under ordinary principles of federal preemption, or (ii) when the exercise of state jurisdiction would unlawfully infringe on tribal "
+    },
+    {
+      "method": "bm25_word_tfidf",
+      "case_id": "case-00002",
+      "question": "Who can prosecute crimes in Indian country?",
+      "answerable": true,
+      "difficulty": "medium",
+      "top_context": "Under the Court's precedents, as we will explain, a State's jurisdiction in Indian country may be preempted (i) by federal law under ordinary principles of federal preemption, or (ii) when the exercise of state jurisdiction would unlawfully infringe on tribal "
+    },
+    {
+      "method": "bm25_word_tfidf",
+      "case_id": "case-00003",
+      "question": "What's the deal with jurisdiction in Oklahoma?",
+      "answerable": true,
+      "difficulty": "hard",
+      "top_context": "Supp. 1110, 1121 (DC 1976) (federal courts had pre-statehood jurisdiction); Clinton 960-962. The Oklahoma Enabling Act and the commitments it demanded in the new Oklahoma Constitution sought to maintain this status quo. Recognizing the point, this Court has ex"
+    },
+    {
+      "method": "bm25_word_tfidf",
+      "case_id": "case-00004",
+      "question": "What's the deal with jurisdiction in Indian country?",
+      "answerable": true,
+      "difficulty": "medium",
+      "top_context": "Under the Court's precedents, as we will explain, a State's jurisdiction in Indian country may be preempted (i) by federal law under ordinary principles of federal preemption, or (ii) when the exercise of state jurisdiction would unlawfully infringe on tribal "
+    },
+    {
+      "method": "bm25_word_tfidf",
+      "case_id": "case-00005",
+      "question": "Can states handle crimes in Indian country or is it all federal?",
+      "answerable": true,
+      "difficulty": "hard",
+      "top_context": "[redacted safety-sensitive example; chars=1804; approx_tokens=272]"
+    },
+    {
+      "method": "bm25_word_tfidf",
+      "case_id": "case-00006",
+      "question": "What are the implications of concurrent jurisdiction in cases involving non-Indians and Indians within certain territories?",
+      "answerable": true,
+      "difficulty": "hard",
+      "top_context": "Reversed and remanded. KAVANAUGH, J., delivered the opinion of the Court, in which ROBERTS, C. J., and THOMAS, ALITO, and BARRETT, JJ., joined. GORSUCH, J., filed a dissenting opinion, in which BREYER, SOTOMAYOR, and KAGAN, JJ., joined. ## Opinion of the Court"
+    },
+    {
+      "method": "bm25_word_tfidf",
+      "case_id": "case-00008",
+      "question": "What was the jurisdictional outcome in the case involving crimes committed by non-Indians against Indians?",
+      "answerable": true,
+      "difficulty": "medium",
+      "top_context": "Under the Court's precedents, as we will explain, a State's jurisdiction in Indian country may be preempted (i) by federal law under ordinary principles of federal preemption, or (ii) when the exercise of state jurisdiction would unlawfully infringe on tribal "
+    },
+    {
+      "method": "bm25_word_tfidf",
+      "case_id": "case-00009",
+      "question": "Who dissented in the decision regarding the prosecution of crimes in Indian country?",
+      "answerable": true,
+      "difficulty": "easy",
+      "top_context": "Under the Court's precedents, as we will explain, a State's jurisdiction in Indian country may be preempted (i) by federal law under ordinary principles of federal preemption, or (ii) when the exercise of state jurisdiction would unlawfully infringe on tribal "
+    },
+    {
+      "method": "bm25_word_tfidf",
+      "case_id": "case-00012",
+      "question": "Who's in charge when things go bump in Tulsa?",
+      "answerable": true,
+      "difficulty": "hard",
+      "top_context": "[redacted safety-sensitive example; chars=1944; approx_tokens=285]"
+    },
+    {
+      "method": "bm25_word_tfidf",
+      "case_id": "case-00013",
+      "question": "If a non-Indian and an Indian have a legal tiff in the east, who gets to play judge?",
+      "answerable": true,
+      "difficulty": "medium",
+      "top_context": "[redacted safety-sensitive example; chars=1688; approx_tokens=266]"
+    },
+    {
+      "method": "bm25_word_tfidf",
+      "case_id": "case-00014",
+      "question": "What are the implications of jurisdictional changes on criminal prosecutions in certain regions?",
+      "answerable": true,
+      "difficulty": "hard",
+      "top_context": "If the product involved is a misbranded food, drug, or cosmetic, see Civil Penalties under the CPSA, above. Criminal Penalties under the PPPAIf the product involved is a misbranded hazardous substance see Criminal Penalties under the FHSA, above. If the produc"
+    },
+    {
+      "method": "bm25_word_tfidf",
+      "case_id": "case-00015",
+      "question": "How has a recent legal decision affected sentencing outcomes for specific individuals?",
+      "answerable": true,
+      "difficulty": "medium",
+      "top_context": "[redacted safety-sensitive example; chars=2251; approx_tokens=352]"
+    },
+    {
+      "method": "bm25_word_tfidf",
+      "case_id": "case-00016",
+      "question": "Explain the relationship between state jurisdiction and Indian country.",
+      "answerable": true,
+      "difficulty": "medium",
+      "top_context": "## II The jurisdictional dispute in this case arises because Oklahoma's territory includes Indian country. Federal law defines 'Indian country' to include, among other things, 'all land within the limits of any Indian reservation under the jurisdiction of the "
+    },
+    {
+      "method": "bm25_word_tfidf",
+      "case_id": "case-00017",
+      "question": "What changed after the 1800s regarding reservations?",
+      "answerable": true,
+      "difficulty": "hard",
+      "top_context": "Since the latter half of the 1800s, the Court has consistently and explicitly held that Indian reservations are 'part of the surrounding State' and subject to the State's jurisdiction 'except as forbidden by federal law.' Ibid. To take a few examples: In 1859,"
+    },
+    {
+      "method": "bm25_word_tfidf",
+      "case_id": "case-00018",
+      "question": "Explain the relationship between states and Indian reservations.",
+      "answerable": true,
+      "difficulty": "medium",
+      "top_context": "## II The jurisdictional dispute in this case arises because Oklahoma's territory includes Indian country. Federal law defines 'Indian country' to include, among other things, 'all land within the limits of any Indian reservation under the jurisdiction of the "
+    },
+    {
+      "method": "bm25_word_tfidf",
+      "case_id": "case-00021",
+      "question": "What happens when state jurisdiction conflicts with tribal self-government?",
+      "answerable": true,
+      "difficulty": "hard",
+      "top_context": "## Syllabus country. But Public Law 280 18 U. S. C. §1162; 25 U. S. C. §1321. Castro-Huerta contends that the law's enactment in 1953 would have been pointless surplusage if States already had concurrent jurisdiction over crimes committed by non-Indians agains"
+    },
+    {
+      "method": "bm25_word_tfidf",
+      "case_id": "case-00022",
+      "question": "Explain how state jurisdiction works in certain areas.",
+      "answerable": true,
+      "difficulty": "hard",
+      "top_context": "## Syllabus country. But Public Law 280 18 U. S. C. §1162; 25 U. S. C. §1321. Castro-Huerta contends that the law's enactment in 1953 would have been pointless surplusage if States already had concurrent jurisdiction over crimes committed by non-Indians agains"
+    },
+    {
+      "method": "bm25_word_tfidf",
+      "case_id": "case-00023",
+      "question": "Tell me about the laws affecting prosecution in specific regions.",
+      "answerable": true,
+      "difficulty": "medium",
+      "top_context": "[redacted safety-sensitive example; chars=1688; approx_tokens=266]"
+    },
+    {
+      "method": "bm25_word_tfidf",
+      "case_id": "case-00024",
+      "question": "How does jurisdiction work in certain areas?",
+      "answerable": true,
+      "difficulty": "medium",
+      "top_context": "Requirements include: - · Waste materials: - n All regulated waste must either be incinerated or decontaminated by a method such as autoclaving known to effectively destroy bloodborne pathogens, 29 CFR 1910.1030(e)(2)(i); and - n Contaminated materials that ar"
+    },
+    {
+      "method": "bm25_word_tfidf",
+      "case_id": "case-00025",
+      "question": "What's the relationship between two types of territories?",
+      "answerable": true,
+      "difficulty": "hard",
+      "top_context": "## J., dissenting GORSUCH, or to... all lands lying within [the State's] limIn 1906, Congress sought to deliver on its treaty promises when it adopted the Oklahoma Enabling Act. That law paved the way for the new State's admission to the Union. But in doing so"
+    },
+    {
+      "method": "bm25_word_tfidf",
+      "case_id": "case-00027",
+      "question": "What are the implications of applying federal enclave laws to other jurisdictions without explicit legislative intent?",
+      "answerable": true,
+      "difficulty": "medium",
+      "top_context": "[redacted safety-sensitive example; chars=1808; approx_tokens=288]"
+    },
+    {
+      "method": "bm25_word_tfidf",
+      "case_id": "case-00031",
+      "question": "What controls over legislative intentions?",
+      "answerable": true,
+      "difficulty": "easy",
+      "top_context": "## Hierarchy of Controls Occupational safety and health professionals use a framework called the 'hierarchy of controls' to select ways of dealing with workplace hazards. The hierarchy of controls prioritizes intervention strategies based on the premise that t"
+    },
+    {
+      "method": "bm25_word_tfidf",
+      "case_id": "case-00032",
+      "question": "Why did the old maps have funny lines between places?",
+      "answerable": false,
+      "difficulty": "hard",
+      "top_context": "## Recommended Best Practices for State Insurance Regulators - · Adopt the major lines and the definitions exactly as stated in Model #218, and provide separate testing for each line, except variable. - · Allow combined examinations, as appropriate. ## Limited"
+    },
+    {
+      "method": "bm25_word_tfidf",
+      "case_id": "case-00033",
+      "question": "What happens when laws take a nap and forget to wake up?",
+      "answerable": false,
+      "difficulty": "medium",
+      "top_context": "[redacted safety-sensitive example; chars=2181; approx_tokens=360]"
+    }
+  ]
+}

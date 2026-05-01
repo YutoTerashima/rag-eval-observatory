@@ -1,0 +1,642 @@
+[
+  {
+    "method": "bm25_word_tfidf",
+    "case_id": "case-00000",
+    "question": "What was the outcome of the legal proceedings involving the individual charged in Oklahoma?",
+    "answerable": true,
+    "difficulty": "medium",
+    "top_context": "3d 286, 294-295. Ultimately, this Court declined to entertain the State's first argument but agreed to review the second. Nominally, the question comes to us in a case involving Victor CastroHuerta, a non-Indian who abused his Cherokee stepdaughter within the "
+  },
+  {
+    "method": "bm25_word_tfidf",
+    "case_id": "case-00001",
+    "question": "How does the jurisdiction apply in cases involving crimes committed by non-Indians against Indians in certain areas?",
+    "answerable": true,
+    "difficulty": "hard",
+    "top_context": "Under the Court's precedents, as we will explain, a State's jurisdiction in Indian country may be preempted (i) by federal law under ordinary principles of federal preemption, or (ii) when the exercise of state jurisdiction would unlawfully infringe on tribal "
+  },
+  {
+    "method": "bm25_word_tfidf",
+    "case_id": "case-00002",
+    "question": "Who can prosecute crimes in Indian country?",
+    "answerable": true,
+    "difficulty": "medium",
+    "top_context": "Under the Court's precedents, as we will explain, a State's jurisdiction in Indian country may be preempted (i) by federal law under ordinary principles of federal preemption, or (ii) when the exercise of state jurisdiction would unlawfully infringe on tribal "
+  },
+  {
+    "method": "bm25_word_tfidf",
+    "case_id": "case-00003",
+    "question": "What's the deal with jurisdiction in Oklahoma?",
+    "answerable": true,
+    "difficulty": "hard",
+    "top_context": "Supp. 1110, 1121 (DC 1976) (federal courts had pre-statehood jurisdiction); Clinton 960-962. The Oklahoma Enabling Act and the commitments it demanded in the new Oklahoma Constitution sought to maintain this status quo. Recognizing the point, this Court has ex"
+  },
+  {
+    "method": "bm25_word_tfidf",
+    "case_id": "case-00004",
+    "question": "What's the deal with jurisdiction in Indian country?",
+    "answerable": true,
+    "difficulty": "medium",
+    "top_context": "Under the Court's precedents, as we will explain, a State's jurisdiction in Indian country may be preempted (i) by federal law under ordinary principles of federal preemption, or (ii) when the exercise of state jurisdiction would unlawfully infringe on tribal "
+  },
+  {
+    "method": "bm25_word_tfidf",
+    "case_id": "case-00005",
+    "question": "Can states handle crimes in Indian country or is it all federal?",
+    "answerable": true,
+    "difficulty": "hard",
+    "top_context": "[redacted safety-sensitive example; chars=1804; approx_tokens=272]"
+  },
+  {
+    "method": "bm25_word_tfidf",
+    "case_id": "case-00006",
+    "question": "What are the implications of concurrent jurisdiction in cases involving non-Indians and Indians within certain territories?",
+    "answerable": true,
+    "difficulty": "hard",
+    "top_context": "Reversed and remanded. KAVANAUGH, J., delivered the opinion of the Court, in which ROBERTS, C. J., and THOMAS, ALITO, and BARRETT, JJ., joined. GORSUCH, J., filed a dissenting opinion, in which BREYER, SOTOMAYOR, and KAGAN, JJ., joined. ## Opinion of the Court"
+  },
+  {
+    "method": "bm25_word_tfidf",
+    "case_id": "case-00008",
+    "question": "What was the jurisdictional outcome in the case involving crimes committed by non-Indians against Indians?",
+    "answerable": true,
+    "difficulty": "medium",
+    "top_context": "Under the Court's precedents, as we will explain, a State's jurisdiction in Indian country may be preempted (i) by federal law under ordinary principles of federal preemption, or (ii) when the exercise of state jurisdiction would unlawfully infringe on tribal "
+  },
+  {
+    "method": "bm25_word_tfidf",
+    "case_id": "case-00009",
+    "question": "Who dissented in the decision regarding the prosecution of crimes in Indian country?",
+    "answerable": true,
+    "difficulty": "easy",
+    "top_context": "Under the Court's precedents, as we will explain, a State's jurisdiction in Indian country may be preempted (i) by federal law under ordinary principles of federal preemption, or (ii) when the exercise of state jurisdiction would unlawfully infringe on tribal "
+  },
+  {
+    "method": "bm25_word_tfidf",
+    "case_id": "case-00012",
+    "question": "Who's in charge when things go bump in Tulsa?",
+    "answerable": true,
+    "difficulty": "hard",
+    "top_context": "[redacted safety-sensitive example; chars=1944; approx_tokens=285]"
+  },
+  {
+    "method": "bm25_word_tfidf",
+    "case_id": "case-00013",
+    "question": "If a non-Indian and an Indian have a legal tiff in the east, who gets to play judge?",
+    "answerable": true,
+    "difficulty": "medium",
+    "top_context": "[redacted safety-sensitive example; chars=1688; approx_tokens=266]"
+  },
+  {
+    "method": "bm25_word_tfidf",
+    "case_id": "case-00014",
+    "question": "What are the implications of jurisdictional changes on criminal prosecutions in certain regions?",
+    "answerable": true,
+    "difficulty": "hard",
+    "top_context": "If the product involved is a misbranded food, drug, or cosmetic, see Civil Penalties under the CPSA, above. Criminal Penalties under the PPPAIf the product involved is a misbranded hazardous substance see Criminal Penalties under the FHSA, above. If the produc"
+  },
+  {
+    "method": "bm25_word_tfidf",
+    "case_id": "case-00015",
+    "question": "How has a recent legal decision affected sentencing outcomes for specific individuals?",
+    "answerable": true,
+    "difficulty": "medium",
+    "top_context": "[redacted safety-sensitive example; chars=2251; approx_tokens=352]"
+  },
+  {
+    "method": "bm25_word_tfidf",
+    "case_id": "case-00016",
+    "question": "Explain the relationship between state jurisdiction and Indian country.",
+    "answerable": true,
+    "difficulty": "medium",
+    "top_context": "## II The jurisdictional dispute in this case arises because Oklahoma's territory includes Indian country. Federal law defines 'Indian country' to include, among other things, 'all land within the limits of any Indian reservation under the jurisdiction of the "
+  },
+  {
+    "method": "bm25_word_tfidf",
+    "case_id": "case-00017",
+    "question": "What changed after the 1800s regarding reservations?",
+    "answerable": true,
+    "difficulty": "hard",
+    "top_context": "Since the latter half of the 1800s, the Court has consistently and explicitly held that Indian reservations are 'part of the surrounding State' and subject to the State's jurisdiction 'except as forbidden by federal law.' Ibid. To take a few examples: In 1859,"
+  },
+  {
+    "method": "bm25_word_tfidf",
+    "case_id": "case-00018",
+    "question": "Explain the relationship between states and Indian reservations.",
+    "answerable": true,
+    "difficulty": "medium",
+    "top_context": "## II The jurisdictional dispute in this case arises because Oklahoma's territory includes Indian country. Federal law defines 'Indian country' to include, among other things, 'all land within the limits of any Indian reservation under the jurisdiction of the "
+  },
+  {
+    "method": "bm25_word_tfidf",
+    "case_id": "case-00021",
+    "question": "What happens when state jurisdiction conflicts with tribal self-government?",
+    "answerable": true,
+    "difficulty": "hard",
+    "top_context": "## Syllabus country. But Public Law 280 18 U. S. C. §1162; 25 U. S. C. §1321. Castro-Huerta contends that the law's enactment in 1953 would have been pointless surplusage if States already had concurrent jurisdiction over crimes committed by non-Indians agains"
+  },
+  {
+    "method": "bm25_word_tfidf",
+    "case_id": "case-00022",
+    "question": "Explain how state jurisdiction works in certain areas.",
+    "answerable": true,
+    "difficulty": "hard",
+    "top_context": "## Syllabus country. But Public Law 280 18 U. S. C. §1162; 25 U. S. C. §1321. Castro-Huerta contends that the law's enactment in 1953 would have been pointless surplusage if States already had concurrent jurisdiction over crimes committed by non-Indians agains"
+  },
+  {
+    "method": "bm25_word_tfidf",
+    "case_id": "case-00023",
+    "question": "Tell me about the laws affecting prosecution in specific regions.",
+    "answerable": true,
+    "difficulty": "medium",
+    "top_context": "[redacted safety-sensitive example; chars=1688; approx_tokens=266]"
+  },
+  {
+    "method": "bm25_word_tfidf",
+    "case_id": "case-00024",
+    "question": "How does jurisdiction work in certain areas?",
+    "answerable": true,
+    "difficulty": "medium",
+    "top_context": "Requirements include: - · Waste materials: - n All regulated waste must either be incinerated or decontaminated by a method such as autoclaving known to effectively destroy bloodborne pathogens, 29 CFR 1910.1030(e)(2)(i); and - n Contaminated materials that ar"
+  },
+  {
+    "method": "bm25_word_tfidf",
+    "case_id": "case-00025",
+    "question": "What's the relationship between two types of territories?",
+    "answerable": true,
+    "difficulty": "hard",
+    "top_context": "## J., dissenting GORSUCH, or to... all lands lying within [the State's] limIn 1906, Congress sought to deliver on its treaty promises when it adopted the Oklahoma Enabling Act. That law paved the way for the new State's admission to the Union. But in doing so"
+  },
+  {
+    "method": "bm25_word_tfidf",
+    "case_id": "case-00027",
+    "question": "What are the implications of applying federal enclave laws to other jurisdictions without explicit legislative intent?",
+    "answerable": true,
+    "difficulty": "medium",
+    "top_context": "[redacted safety-sensitive example; chars=1808; approx_tokens=288]"
+  },
+  {
+    "method": "bm25_word_tfidf",
+    "case_id": "case-00031",
+    "question": "What controls over legislative intentions?",
+    "answerable": true,
+    "difficulty": "easy",
+    "top_context": "## Hierarchy of Controls Occupational safety and health professionals use a framework called the 'hierarchy of controls' to select ways of dealing with workplace hazards. The hierarchy of controls prioritizes intervention strategies based on the premise that t"
+  },
+  {
+    "method": "bm25_word_tfidf",
+    "case_id": "case-00032",
+    "question": "Why did the old maps have funny lines between places?",
+    "answerable": false,
+    "difficulty": "hard",
+    "top_context": "## Recommended Best Practices for State Insurance Regulators - · Adopt the major lines and the definitions exactly as stated in Model #218, and provide separate testing for each line, except variable. - · Allow combined examinations, as appropriate. ## Limited"
+  },
+  {
+    "method": "bm25_word_tfidf",
+    "case_id": "case-00033",
+    "question": "What happens when laws take a nap and forget to wake up?",
+    "answerable": false,
+    "difficulty": "medium",
+    "top_context": "[redacted safety-sensitive example; chars=2181; approx_tokens=360]"
+  },
+  {
+    "method": "bm25_word_tfidf",
+    "case_id": "case-00034",
+    "question": "What happened in 1882 regarding legal jurisdiction?",
+    "answerable": false,
+    "difficulty": "easy",
+    "top_context": "In 1882, in McBratney, moreover, this Court held that States have jurisdiction to prosecute at least some crimes committed in Indian country. Since 1882, therefore, Congress has been specifically aware that state criminal laws apply to some extent in Indian co"
+  },
+  {
+    "method": "bm25_word_tfidf",
+    "case_id": "case-00035",
+    "question": "Why didn't Congress act after 1979?",
+    "answerable": false,
+    "difficulty": "medium",
+    "top_context": "In 1882, in McBratney, moreover, this Court held that States have jurisdiction to prosecute at least some crimes committed in Indian country. Since 1882, therefore, Congress has been specifically aware that state criminal laws apply to some extent in Indian co"
+  },
+  {
+    "method": "bm25_word_tfidf",
+    "case_id": "case-00037",
+    "question": "Can you explain how that canon thing works in these cases?",
+    "answerable": true,
+    "difficulty": "hard",
+    "top_context": "that the 1948 Congress therefore intended to ratify the Williams dicta. Castro-Huerta's reenactment-canon argument is misplaced. First of all, the reenactment canon does not override clear statutory language of the kind present in the General Crimes Act. See B"
+  },
+  {
+    "method": "bm25_word_tfidf",
+    "case_id": "case-00038",
+    "question": "So what's the deal with the General Crimes Act and states?",
+    "answerable": true,
+    "difficulty": "medium",
+    "top_context": "Those holdings, too, contravene Castro-Huerta's argument regarding the General Crimes Act. grants the Federal Government exclusive jurisIn advancing his enclave argument, Castro-Huerta also tries to analogize the text of the General Crimes Act to the text of t"
+  },
+  {
+    "method": "bm25_word_tfidf",
+    "case_id": "case-00039",
+    "question": "Why did they keep bringing up that old case if it didn't really matter?",
+    "answerable": true,
+    "difficulty": "hard",
+    "top_context": "For many reasons, then, we cannot conclude that Congress, by recodifying the entire Federal Criminal Code in 1948, silently ratified a few sentences of dicta from Williams. The reenactment canon does not apply in this case. Third, Castro-Huerta contends that t"
+  },
+  {
+    "method": "bm25_word_tfidf",
+    "case_id": "case-00040",
+    "question": "What's the deal with Oklahoma and that court thing?",
+    "answerable": true,
+    "difficulty": "medium",
+    "top_context": "## Syllabus in connection with this case, at the time the opinion is issued. syllabus constitutes no part of the opinion of the Court but has been Decisions for the convenience of the reader. Co., NOTE: Where it is feasible, a syllabus (headnote) will be relea"
+  },
+  {
+    "method": "bm25_word_tfidf",
+    "case_id": "case-00041",
+    "question": "Why did the McGirt decision make everything so weird in Oklahoma?",
+    "answerable": true,
+    "difficulty": "hard",
+    "top_context": "J., dissenting GORSUCH, Tribal Nations began seeking retrocession and repeal.' Brief for National Indigenous Women's Resource Center et al. as Amici Curiae 12. Recently, a bipartisan congressional commission agreed that more state criminal jurisdiction in Indi"
+  },
+  {
+    "method": "bm25_word_tfidf",
+    "case_id": "case-00043",
+    "question": "How does the Court's interpretation of Public Law 280 affect tribal self-government?",
+    "answerable": true,
+    "difficulty": "hard",
+    "top_context": "## Opinion of the Court U. S. 138, 150 (1984). The Court's definitive statement in Three Affiliated Tribes about Public Law 280 applies to both civil and criminal jurisdiction. And the Court's statement follows ineluctably from the statutory text: Public Law 2"
+  },
+  {
+    "method": "bm25_word_tfidf",
+    "case_id": "case-00044",
+    "question": "What happens when laws overlap?",
+    "answerable": true,
+    "difficulty": "medium",
+    "top_context": "[redacted safety-sensitive example; chars=1804; approx_tokens=289]"
+  },
+  {
+    "method": "bm25_word_tfidf",
+    "case_id": "case-00045",
+    "question": "Can states still act if federal law doesn't stop them?",
+    "answerable": true,
+    "difficulty": "hard",
+    "top_context": "[redacted safety-sensitive example; chars=1742; approx_tokens=248]"
+  },
+  {
+    "method": "bm25_word_tfidf",
+    "case_id": "case-00046",
+    "question": "Explain the jurisdiction over crimes in Indian country.",
+    "answerable": true,
+    "difficulty": "hard",
+    "top_context": "Under the Court's precedents, as we will explain, a State's jurisdiction in Indian country may be preempted (i) by federal law under ordinary principles of federal preemption, or (ii) when the exercise of state jurisdiction would unlawfully infringe on tribal "
+  },
+  {
+    "method": "bm25_word_tfidf",
+    "case_id": "case-00049",
+    "question": "Why does the state care about prosecuting crimes there?",
+    "answerable": true,
+    "difficulty": "hard",
+    "top_context": "[redacted safety-sensitive example; chars=1804; approx_tokens=289]"
+  },
+  {
+    "method": "bm25_word_tfidf",
+    "case_id": "case-00051",
+    "question": "How does the whole jurisdiction thing work for crimes in Indian country?",
+    "answerable": true,
+    "difficulty": "hard",
+    "top_context": "Under the Court's precedents, as we will explain, a State's jurisdiction in Indian country may be preempted (i) by federal law under ordinary principles of federal preemption, or (ii) when the exercise of state jurisdiction would unlawfully infringe on tribal "
+  },
+  {
+    "method": "bm25_word_tfidf",
+    "case_id": "case-00052",
+    "question": "What is the relationship between state jurisdiction and tribal self-government in the context of criminal cases?",
+    "answerable": true,
+    "difficulty": "hard",
+    "top_context": "## Syllabus country. But Public Law 280 18 U. S. C. §1162; 25 U. S. C. §1321. Castro-Huerta contends that the law's enactment in 1953 would have been pointless surplusage if States already had concurrent jurisdiction over crimes committed by non-Indians agains"
+  },
+  {
+    "method": "bm25_word_tfidf",
+    "case_id": "case-00055",
+    "question": "What happens to existing laws when a new state is formed?",
+    "answerable": true,
+    "difficulty": "easy",
+    "top_context": "[redacted safety-sensitive example; chars=2183; approx_tokens=379]"
+  },
+  {
+    "method": "bm25_word_tfidf",
+    "case_id": "case-00056",
+    "question": "So what's the deal with states and Indian country?",
+    "answerable": true,
+    "difficulty": "medium",
+    "top_context": "Under the Court's precedents, as we will explain, a State's jurisdiction in Indian country may be preempted (i) by federal law under ordinary principles of federal preemption, or (ii) when the exercise of state jurisdiction would unlawfully infringe on tribal "
+  },
+  {
+    "method": "bm25_word_tfidf",
+    "case_id": "case-00057",
+    "question": "Can you explain how jurisdiction works in these cases?",
+    "answerable": true,
+    "difficulty": "hard",
+    "top_context": "## Syllabus country. But Public Law 280 18 U. S. C. §1162; 25 U. S. C. §1321. Castro-Huerta contends that the law's enactment in 1953 would have been pointless surplusage if States already had concurrent jurisdiction over crimes committed by non-Indians agains"
+  },
+  {
+    "method": "bm25_word_tfidf",
+    "case_id": "case-00060",
+    "question": "What's the deal with that old case involving a missionary and tribal lands?",
+    "answerable": true,
+    "difficulty": "medium",
+    "top_context": "§ 1152. As recounted above, Congress adopted the GCA in the aftermath of Worcester's holding that the federal government alone may regulate tribal affairs and States do not possess inherent authority to apply their criminal laws on tribal lands. Responding to "
+  },
+  {
+    "method": "bm25_word_tfidf",
+    "case_id": "case-00061",
+    "question": "Why did Georgia get into trouble with the courts back then?",
+    "answerable": true,
+    "difficulty": "hard",
+    "top_context": "1986). at 138. States, too, recognized their lack of au(D. Twohig ed. 1993). Initially, even Nor was this view confined to the Executive Branch. Congress quickly exercised its new constitutional authority. In 1790, it enacted the first Indian Trade and Interco"
+  },
+  {
+    "method": "bm25_word_tfidf",
+    "case_id": "case-00063",
+    "question": "What happened in 1823?",
+    "answerable": true,
+    "difficulty": "easy",
+    "top_context": "## 1. PURPOSE The mission of the U.S. Department of Transportation (DOT) is to ensure a fast, safe, efficient, accessible and convenient transportation system that meets vital national interests and enhances the quality of life of the American people. This Ord"
+  },
+  {
+    "method": "bm25_word_tfidf",
+    "case_id": "case-00068",
+    "question": "What was the stance of early U.S. administrations regarding the governance of tribal relations?",
+    "answerable": true,
+    "difficulty": "medium",
+    "top_context": "375, 384 (1886). J., dissenting GORSUCH, government would have 'exclusive jurisdiction' to S. C. § 1153(a); see also Part I-B, When Congress enacted the MCA in 1885, it proceeded once more against the 'backdrop' rule that only tribal criminal law applies on tr"
+  },
+  {
+    "method": "bm25_word_tfidf",
+    "case_id": "case-00070",
+    "question": "What's the deal with the laws back then?",
+    "answerable": true,
+    "difficulty": "medium",
+    "top_context": "## have tried all the available format options, but without some I can not make them work on my label, what can I do? L53.I modification CFR 101.9(g)(9), may permit alternative means of or additional exemptions to deal with special situations. Firms in of spec"
+  },
+  {
+    "method": "bm25_word_tfidf",
+    "case_id": "case-00071",
+    "question": "Who was involved in all this stuff with the tribes?",
+    "answerable": true,
+    "difficulty": "easy",
+    "top_context": "Ante, at 19. See Anderson 3. Some of Additionally, nothing in the'Bracker balancing' test the Court employs foreordains today's grim result for different Tribes in different States. Bracker instructs courts to focus on the'specific context' at issue, taking co"
+  },
+  {
+    "method": "bm25_word_tfidf",
+    "case_id": "case-00072",
+    "question": "What was the significance of the jurisdictional arrangement established by the federal government?",
+    "answerable": true,
+    "difficulty": "hard",
+    "top_context": "3d 23. While Castro-Huerta's state appellate proceedings were ongoing, a federal grand jury in Oklahoma indicted CastroHuerta for the same conduct. Castro-Huerta accepted a plea agreement for a 7-year sentence followed by removal from the United States. (Castr"
+  },
+  {
+    "method": "bm25_word_tfidf",
+    "case_id": "case-00073",
+    "question": "[redacted safety-sensitive example; chars=72; approx_tokens=11]",
+    "answerable": true,
+    "difficulty": "medium",
+    "top_context": "[redacted safety-sensitive example; chars=1808; approx_tokens=288]"
+  },
+  {
+    "method": "bm25_word_tfidf",
+    "case_id": "case-00075",
+    "question": "Why did the Sioux get a major something in 1885?",
+    "answerable": false,
+    "difficulty": "hard",
+    "top_context": "## The Major Lines A line of authority (LOA) is a general subject area of insurance that a producer can be licensed to sell. The Producer Licensing Model Act (#218) identifies and defines seven LOAs; however, the Uniform Licensing Standards (ULS) set forth six"
+  },
+  {
+    "method": "bm25_word_tfidf",
+    "case_id": "case-00076",
+    "question": "Who gets to play judge and jury when the land gets all tangled up in promises and disclaimers?",
+    "answerable": true,
+    "difficulty": "hard",
+    "top_context": "Livestock are found in the most crowded of cities, in sheds containing thousands of animals, or grazing in high mountains, baking deserts and icy tundra. Livestock also play very different roles in the economy and society. Farmers and pastoralists who raise li"
+  },
+  {
+    "method": "bm25_word_tfidf",
+    "case_id": "case-00078",
+    "question": "Explain the changes in jurisdiction over tribal lands.",
+    "answerable": true,
+    "difficulty": "medium",
+    "top_context": "§ 1152. As recounted above, Congress adopted the GCA in the aftermath of Worcester's holding that the federal government alone may regulate tribal affairs and States do not possess inherent authority to apply their criminal laws on tribal lands. Responding to "
+  },
+  {
+    "method": "bm25_word_tfidf",
+    "case_id": "case-00080",
+    "question": "What's the deal with jurisdiction changes?",
+    "answerable": true,
+    "difficulty": "medium",
+    "top_context": "## Syllabus country. But Public Law 280 18 U. S. C. §1162; 25 U. S. C. §1321. Castro-Huerta contends that the law's enactment in 1953 would have been pointless surplusage if States already had concurrent jurisdiction over crimes committed by non-Indians agains"
+  },
+  {
+    "method": "bm25_word_tfidf",
+    "case_id": "case-00083",
+    "question": "What's the deal with the reservations and the not-disestablishing?",
+    "answerable": true,
+    "difficulty": "medium",
+    "top_context": "A Today the Court rules for Oklahoma. In doing so, the Court announces that, when it comes to crimes by non-Indians against tribal members within tribal reservations, Oklahoma may 'exercise jurisdiction.' Ante, at 4. But this declaration comes as if by oracle,"
+  },
+  {
+    "method": "bm25_word_tfidf",
+    "case_id": "case-00084",
+    "question": "What are the potential legal strategies a state might consider in response to jurisdictional developments on tribal lands?",
+    "answerable": true,
+    "difficulty": "medium",
+    "top_context": "375, 384 (1886). J., dissenting GORSUCH, government would have 'exclusive jurisdiction' to S. C. § 1153(a); see also Part I-B, When Congress enacted the MCA in 1885, it proceeded once more against the 'backdrop' rule that only tribal criminal law applies on tr"
+  },
+  {
+    "method": "bm25_word_tfidf",
+    "case_id": "case-00086",
+    "question": "What happened after the federal reindictment?",
+    "answerable": true,
+    "difficulty": "medium",
+    "top_context": "[redacted safety-sensitive example; chars=1808; approx_tokens=288]"
+  },
+  {
+    "method": "bm25_word_tfidf",
+    "case_id": "case-00087",
+    "question": "Who is trying to change the jurisdiction?",
+    "answerable": true,
+    "difficulty": "easy",
+    "top_context": "## Syllabus country. But Public Law 280 18 U. S. C. §1162; 25 U. S. C. §1321. Castro-Huerta contends that the law's enactment in 1953 would have been pointless surplusage if States already had concurrent jurisdiction over crimes committed by non-Indians agains"
+  },
+  {
+    "method": "bm25_word_tfidf",
+    "case_id": "case-00088",
+    "question": "So what's the deal with Oklahoma and tribal lands?",
+    "answerable": true,
+    "difficulty": "medium",
+    "top_context": "375, 384 (1886). J., dissenting GORSUCH, government would have 'exclusive jurisdiction' to S. C. § 1153(a); see also Part I-B, When Congress enacted the MCA in 1885, it proceeded once more against the 'backdrop' rule that only tribal criminal law applies on tr"
+  },
+  {
+    "method": "bm25_word_tfidf",
+    "case_id": "case-00089",
+    "question": "Who gets to handle crimes around here?",
+    "answerable": true,
+    "difficulty": "hard",
+    "top_context": "Those holdings, too, contravene Castro-Huerta's argument regarding the General Crimes Act. grants the Federal Government exclusive jurisIn advancing his enclave argument, Castro-Huerta also tries to analogize the text of the General Crimes Act to the text of t"
+  },
+  {
+    "method": "bm25_word_tfidf",
+    "case_id": "case-00091",
+    "question": "Can you explain that court case about double jeopardy?",
+    "answerable": true,
+    "difficulty": "hard",
+    "top_context": "[redacted safety-sensitive example; chars=1546; approx_tokens=264]"
+  },
+  {
+    "method": "bm25_word_tfidf",
+    "case_id": "case-00092",
+    "question": "Explain the standards for pre-emption.",
+    "answerable": true,
+    "difficulty": "medium",
+    "top_context": "It is critical, however, to have all final items reviewed and approved by state and national SMEs in the given field for accuracy and relevancy. - 3. Each examination should consist of pre-test questions that are being evaluated for performance and questions t"
+  },
+  {
+    "method": "bm25_word_tfidf",
+    "case_id": "case-00095",
+    "question": "Can you explain how things work between tribes and states?",
+    "answerable": true,
+    "difficulty": "hard",
+    "top_context": "Ante, at 19. See Anderson 3. Some of Additionally, nothing in the'Bracker balancing' test the Court employs foreordains today's grim result for different Tribes in different States. Bracker instructs courts to focus on the'specific context' at issue, taking co"
+  },
+  {
+    "method": "bm25_word_tfidf",
+    "case_id": "case-00096",
+    "question": "What was the response to the decision about jurisdiction?",
+    "answerable": true,
+    "difficulty": "medium",
+    "top_context": "[redacted safety-sensitive example; chars=2251; approx_tokens=352]"
+  },
+  {
+    "method": "bm25_word_tfidf",
+    "case_id": "case-00100",
+    "question": "What was the purpose of the 1885 legislation?",
+    "answerable": true,
+    "difficulty": "medium",
+    "top_context": "139,151,152 Various public policies designed to improve dietary patterns have demonstrated positive impacts. Initiatives in nutrition assistance programs, including the Special Supplemental Nutrition Program for Women, Infants, and Children Program (WIC) and t"
+  },
+  {
+    "method": "bm25_word_tfidf",
+    "case_id": "case-00102",
+    "question": "What's the deal with promises and tribes back in the day?",
+    "answerable": true,
+    "difficulty": "medium",
+    "top_context": "Ante, at 19. See Anderson 3. Some of Additionally, nothing in the'Bracker balancing' test the Court employs foreordains today's grim result for different Tribes in different States. Bracker instructs courts to focus on the'specific context' at issue, taking co"
+  },
+  {
+    "method": "bm25_word_tfidf",
+    "case_id": "case-00105",
+    "question": "Did something change in 1906 about who controls certain areas?",
+    "answerable": true,
+    "difficulty": "hard",
+    "top_context": "## Hierarchy of Controls Occupational safety and health professionals use a framework called the 'hierarchy of controls' to select ways of dealing with workplace hazards. The hierarchy of controls prioritizes intervention strategies based on the premise that t"
+  },
+  {
+    "method": "bm25_word_tfidf",
+    "case_id": "case-00108",
+    "question": "What are the implications of statehood on jurisdictional authority over crimes involving non-Indians and Indians?",
+    "answerable": true,
+    "difficulty": "hard",
+    "top_context": "[redacted safety-sensitive example; chars=1744; approx_tokens=263]"
+  },
+  {
+    "method": "bm25_word_tfidf",
+    "case_id": "case-00109",
+    "question": "How has Congress historically regulated the application of state criminal law on tribal lands?",
+    "answerable": true,
+    "difficulty": "medium",
+    "top_context": "[redacted safety-sensitive example; chars=1808; approx_tokens=288]"
+  },
+  {
+    "method": "bm25_word_tfidf",
+    "case_id": "case-00110",
+    "question": "What steps must be taken for a state to exercise jurisdiction over certain crimes on tribal lands?",
+    "answerable": true,
+    "difficulty": "medium",
+    "top_context": "375, 384 (1886). J., dissenting GORSUCH, government would have 'exclusive jurisdiction' to S. C. § 1153(a); see also Part I-B, When Congress enacted the MCA in 1885, it proceeded once more against the 'backdrop' rule that only tribal criminal law applies on tr"
+  },
+  {
+    "method": "bm25_word_tfidf",
+    "case_id": "case-00111",
+    "question": "How does the Court's stance impact the historical legislation regarding tribal sovereignty?",
+    "answerable": true,
+    "difficulty": "hard",
+    "top_context": "353, 361, 363, 374 (2001). In the end, the Court cannot fault our predecessors for today's decision. The blame belongs only with this Court here and now. Standing before us is a mountain of statutes and precedents making plain that Oklahoma possesses no author"
+  },
+  {
+    "method": "bm25_word_tfidf",
+    "case_id": "case-00112",
+    "question": "What are the implications of tribal sovereignty on state criminal jurisdiction?",
+    "answerable": true,
+    "difficulty": "hard",
+    "top_context": "------ Cite as: 597 U. S. \\_\\_\\_\\_ (2022) ## J., dissenting GORSUCH, Congress's work must be resolved in favor of tribal sovereignty and against state power. See ibid. ; see also Cotton Petroleum, 490 U. S., at 177. And, if anything, these rules bear special f"
+  },
+  {
+    "method": "bm25_word_tfidf",
+    "case_id": "case-00113",
+    "question": "How does Public Law 280 affect the prosecution of crimes in tribal areas?",
+    "answerable": true,
+    "difficulty": "medium",
+    "top_context": "## Opinion of the Court U. S. 138, 150 (1984). The Court's definitive statement in Three Affiliated Tribes about Public Law 280 applies to both civil and criminal jurisdiction. And the Court's statement follows ineluctably from the statutory text: Public Law 2"
+  },
+  {
+    "method": "bm25_word_tfidf",
+    "case_id": "case-00114",
+    "question": "What is the historical stance on state jurisdiction over crimes involving Indians?",
+    "answerable": true,
+    "difficulty": "medium",
+    "top_context": "In 1882, in McBratney, moreover, this Court held that States have jurisdiction to prosecute at least some crimes committed in Indian country. Since 1882, therefore, Congress has been specifically aware that state criminal laws apply to some extent in Indian co"
+  },
+  {
+    "method": "bm25_word_tfidf",
+    "case_id": "case-00115",
+    "question": "How have different branches of government interpreted the authority of states in Indian country?",
+    "answerable": true,
+    "difficulty": "hard",
+    "top_context": "Under the Court's precedents, as we will explain, a State's jurisdiction in Indian country may be preempted (i) by federal law under ordinary principles of federal preemption, or (ii) when the exercise of state jurisdiction would unlawfully infringe on tribal "
+  },
+  {
+    "method": "bm25_word_tfidf",
+    "case_id": "case-00116",
+    "question": "What changed in the late 1800s?",
+    "answerable": true,
+    "difficulty": "medium",
+    "top_context": "| The building at 407 Forest Street is located in a high crime area. The FHWA has safety/security concerns due to the Employee's early departures (before 7 am) and late arrivals (after 6 pm) to/from project site visits. The employee will utilize HTW transporta"
+  },
+  {
+    "method": "bm25_word_tfidf",
+    "case_id": "case-00117",
+    "question": "Who has jurisdiction over minor crimes?",
+    "answerable": true,
+    "difficulty": "easy",
+    "top_context": "Those holdings, too, contravene Castro-Huerta's argument regarding the General Crimes Act. grants the Federal Government exclusive jurisIn advancing his enclave argument, Castro-Huerta also tries to analogize the text of the General Crimes Act to the text of t"
+  },
+  {
+    "method": "bm25_word_tfidf",
+    "case_id": "case-00118",
+    "question": "Explain the power to try crimes on tribal reservations.",
+    "answerable": true,
+    "difficulty": "medium",
+    "top_context": "375, 384 (1886). J., dissenting GORSUCH, government would have 'exclusive jurisdiction' to S. C. § 1153(a); see also Part I-B, When Congress enacted the MCA in 1885, it proceeded once more against the 'backdrop' rule that only tribal criminal law applies on tr"
+  },
+  {
+    "method": "bm25_word_tfidf",
+    "case_id": "case-00120",
+    "question": "What's the deal with that fishing case in Alaska?",
+    "answerable": true,
+    "difficulty": "medium",
+    "top_context": "## Rule 26-CONTINUED (e) A vessel when not engaged in fishing shall not exhibit the lights or shapes prescribed in this Rule, but only those prescribed for a vessel of her length. ## Rule 26-CONTINUED - (e) A vessel not engaged in fishing shall not exhibit the"
+  },
+  {
+    "method": "bm25_word_tfidf",
+    "case_id": "case-00121",
+    "question": "So, can states just do whatever they want on tribal lands or what?",
+    "answerable": true,
+    "difficulty": "hard",
+    "top_context": "§ 1152. As recounted above, Congress adopted the GCA in the aftermath of Worcester's holding that the federal government alone may regulate tribal affairs and States do not possess inherent authority to apply their criminal laws on tribal lands. Responding to "
+  }
+]
