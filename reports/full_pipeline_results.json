@@ -1,0 +1,393 @@
+{
+  "metrics": {
+    "hit_rate": 0.625,
+    "mrr": 0.382,
+    "ndcg": 0.444
+  },
+  "rows": [
+    {
+      "case_id": "RAG-001",
+      "gold_doc": "DOC-001",
+      "retrieved": [
+        "DOC-001",
+        "DOC-007",
+        "DOC-013"
+      ],
+      "scores": {
+        "DOC-001": 1.6594,
+        "DOC-007": 1.6594,
+        "DOC-013": 1.6594
+      },
+      "hit_at_k": true,
+      "rank": 1
+    },
+    {
+      "case_id": "RAG-002",
+      "gold_doc": "DOC-002",
+      "retrieved": [
+        "DOC-004",
+        "DOC-005",
+        "DOC-006"
+      ],
+      "scores": {
+        "DOC-004": 0.014,
+        "DOC-005": 0.014,
+        "DOC-006": 0.014
+      },
+      "hit_at_k": false,
+      "rank": null
+    },
+    {
+      "case_id": "RAG-003",
+      "gold_doc": "DOC-003",
+      "retrieved": [
+        "DOC-003",
+        "DOC-009",
+        "DOC-015"
+      ],
+      "scores": {
+        "DOC-003": 1.7284,
+        "DOC-009": 1.7284,
+        "DOC-015": 1.7284
+      },
+      "hit_at_k": true,
+      "rank": 1
+    },
+    {
+      "case_id": "RAG-004",
+      "gold_doc": "DOC-004",
+      "retrieved": [
+        "DOC-004",
+        "DOC-010",
+        "DOC-016"
+      ],
+      "scores": {
+        "DOC-004": 1.8034,
+        "DOC-010": 1.8034,
+        "DOC-016": 1.8034
+      },
+      "hit_at_k": true,
+      "rank": 1
+    },
+    {
+      "case_id": "RAG-005",
+      "gold_doc": "DOC-005",
+      "retrieved": [
+        "DOC-005",
+        "DOC-011",
+        "DOC-017"
+      ],
+      "scores": {
+        "DOC-005": 1.8034,
+        "DOC-011": 1.8034,
+        "DOC-017": 1.8034
+      },
+      "hit_at_k": true,
+      "rank": 1
+    },
+    {
+      "case_id": "RAG-006",
+      "gold_doc": "DOC-006",
+      "retrieved": [
+        "DOC-006",
+        "DOC-012",
+        "DOC-018"
+      ],
+      "scores": {
+        "DOC-006": 1.8034,
+        "DOC-012": 1.8034,
+        "DOC-018": 1.8034
+      },
+      "hit_at_k": true,
+      "rank": 1
+    },
+    {
+      "case_id": "RAG-007",
+      "gold_doc": "DOC-007",
+      "retrieved": [
+        "DOC-001",
+        "DOC-007",
+        "DOC-013"
+      ],
+      "scores": {
+        "DOC-001": 1.6594,
+        "DOC-007": 1.6594,
+        "DOC-013": 1.6594
+      },
+      "hit_at_k": true,
+      "rank": 2
+    },
+    {
+      "case_id": "RAG-008",
+      "gold_doc": "DOC-008",
+      "retrieved": [
+        "DOC-004",
+        "DOC-005",
+        "DOC-006"
+      ],
+      "scores": {
+        "DOC-004": 0.014,
+        "DOC-005": 0.014,
+        "DOC-006": 0.014
+      },
+      "hit_at_k": false,
+      "rank": null
+    },
+    {
+      "case_id": "RAG-009",
+      "gold_doc": "DOC-009",
+      "retrieved": [
+        "DOC-003",
+        "DOC-009",
+        "DOC-015"
+      ],
+      "scores": {
+        "DOC-003": 1.7284,
+        "DOC-009": 1.7284,
+        "DOC-015": 1.7284
+      },
+      "hit_at_k": true,
+      "rank": 2
+    },
+    {
+      "case_id": "RAG-010",
+      "gold_doc": "DOC-010",
+      "retrieved": [
+        "DOC-004",
+        "DOC-010",
+        "DOC-016"
+      ],
+      "scores": {
+        "DOC-004": 1.8034,
+        "DOC-010": 1.8034,
+        "DOC-016": 1.8034
+      },
+      "hit_at_k": true,
+      "rank": 2
+    },
+    {
+      "case_id": "RAG-011",
+      "gold_doc": "DOC-011",
+      "retrieved": [
+        "DOC-005",
+        "DOC-011",
+        "DOC-017"
+      ],
+      "scores": {
+        "DOC-005": 1.8034,
+        "DOC-011": 1.8034,
+        "DOC-017": 1.8034
+      },
+      "hit_at_k": true,
+      "rank": 2
+    },
+    {
+      "case_id": "RAG-012",
+      "gold_doc": "DOC-012",
+      "retrieved": [
+        "DOC-006",
+        "DOC-012",
+        "DOC-018"
+      ],
+      "scores": {
+        "DOC-006": 1.8034,
+        "DOC-012": 1.8034,
+        "DOC-018": 1.8034
+      },
+      "hit_at_k": true,
+      "rank": 2
+    },
+    {
+      "case_id": "RAG-013",
+      "gold_doc": "DOC-013",
+      "retrieved": [
+        "DOC-001",
+        "DOC-007",
+        "DOC-013"
+      ],
+      "scores": {
+        "DOC-001": 1.6594,
+        "DOC-007": 1.6594,
+        "DOC-013": 1.6594
+      },
+      "hit_at_k": true,
+      "rank": 3
+    },
+    {
+      "case_id": "RAG-014",
+      "gold_doc": "DOC-014",
+      "retrieved": [
+        "DOC-004",
+        "DOC-005",
+        "DOC-006"
+      ],
+      "scores": {
+        "DOC-004": 0.014,
+        "DOC-005": 0.014,
+        "DOC-006": 0.014
+      },
+      "hit_at_k": false,
+      "rank": null
+    },
+    {
+      "case_id": "RAG-015",
+      "gold_doc": "DOC-015",
+      "retrieved": [
+        "DOC-003",
+        "DOC-009",
+        "DOC-015"
+      ],
+      "scores": {
+        "DOC-003": 1.7284,
+        "DOC-009": 1.7284,
+        "DOC-015": 1.7284
+      },
+      "hit_at_k": true,
+      "rank": 3
+    },
+    {
+      "case_id": "RAG-016",
+      "gold_doc": "DOC-016",
+      "retrieved": [
+        "DOC-004",
+        "DOC-010",
+        "DOC-016"
+      ],
+      "scores": {
+        "DOC-004": 1.8034,
+        "DOC-010": 1.8034,
+        "DOC-016": 1.8034
+      },
+      "hit_at_k": true,
+      "rank": 3
+    },
+    {
+      "case_id": "RAG-017",
+      "gold_doc": "DOC-017",
+      "retrieved": [
+        "DOC-005",
+        "DOC-011",
+        "DOC-017"
+      ],
+      "scores": {
+        "DOC-005": 1.8034,
+        "DOC-011": 1.8034,
+        "DOC-017": 1.8034
+      },
+      "hit_at_k": true,
+      "rank": 3
+    },
+    {
+      "case_id": "RAG-018",
+      "gold_doc": "DOC-018",
+      "retrieved": [
+        "DOC-006",
+        "DOC-012",
+        "DOC-018"
+      ],
+      "scores": {
+        "DOC-006": 1.8034,
+        "DOC-012": 1.8034,
+        "DOC-018": 1.8034
+      },
+      "hit_at_k": true,
+      "rank": 3
+    },
+    {
+      "case_id": "RAG-019",
+      "gold_doc": "DOC-019",
+      "retrieved": [
+        "DOC-001",
+        "DOC-007",
+        "DOC-013"
+      ],
+      "scores": {
+        "DOC-001": 1.6594,
+        "DOC-007": 1.6594,
+        "DOC-013": 1.6594
+      },
+      "hit_at_k": false,
+      "rank": null
+    },
+    {
+      "case_id": "RAG-020",
+      "gold_doc": "DOC-020",
+      "retrieved": [
+        "DOC-004",
+        "DOC-005",
+        "DOC-006"
+      ],
+      "scores": {
+        "DOC-004": 0.014,
+        "DOC-005": 0.014,
+        "DOC-006": 0.014
+      },
+      "hit_at_k": false,
+      "rank": null
+    },
+    {
+      "case_id": "RAG-021",
+      "gold_doc": "DOC-021",
+      "retrieved": [
+        "DOC-003",
+        "DOC-009",
+        "DOC-015"
+      ],
+      "scores": {
+        "DOC-003": 1.7284,
+        "DOC-009": 1.7284,
+        "DOC-015": 1.7284
+      },
+      "hit_at_k": false,
+      "rank": null
+    },
+    {
+      "case_id": "RAG-022",
+      "gold_doc": "DOC-022",
+      "retrieved": [
+        "DOC-004",
+        "DOC-010",
+        "DOC-016"
+      ],
+      "scores": {
+        "DOC-004": 1.8034,
+        "DOC-010": 1.8034,
+        "DOC-016": 1.8034
+      },
+      "hit_at_k": false,
+      "rank": null
+    },
+    {
+      "case_id": "RAG-023",
+      "gold_doc": "DOC-023",
+      "retrieved": [
+        "DOC-005",
+        "DOC-011",
+        "DOC-017"
+      ],
+      "scores": {
+        "DOC-005": 1.8034,
+        "DOC-011": 1.8034,
+        "DOC-017": 1.8034
+      },
+      "hit_at_k": false,
+      "rank": null
+    },
+    {
+      "case_id": "RAG-024",
+      "gold_doc": "DOC-024",
+      "retrieved": [
+        "DOC-006",
+        "DOC-012",
+        "DOC-018"
+      ],
+      "scores": {
+        "DOC-006": 1.8034,
+        "DOC-012": 1.8034,
+        "DOC-018": 1.8034
+      },
+      "hit_at_k": false,
+      "rank": null
+    }
+  ]
+}

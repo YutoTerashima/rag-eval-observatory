@@ -1,0 +1,52 @@
+{
+  "average_context_recall": 0.75,
+  "average_faithfulness": 0.75,
+  "failure_sources": {
+    "missing_gold": 1,
+    "no_failure": 3
+  },
+  "cases": [
+    {
+      "question": "What does trace grading inspect?",
+      "retrieved_ids": [
+        "agent-traces"
+      ],
+      "answer": "Trace grading inspects messages, tool calls, and final answers.",
+      "context_precision": 1.0,
+      "context_recall": 1.0,
+      "faithfulness": 1.0,
+      "failure_source": "no_failure"
+    },
+    {
+      "question": "What describes retrieval quality?",
+      "retrieved_ids": [
+        "rag-metrics"
+      ],
+      "answer": "Context precision and context recall describe retrieval quality.",
+      "context_precision": 1.0,
+      "context_recall": 1.0,
+      "faithfulness": 1.0,
+      "failure_source": "no_failure"
+    },
+    {
+      "question": "What does isshin furan mean?",
+      "retrieved_ids": [
+        "kendo"
+      ],
+      "answer": "Isshin furan means focused attention without distraction.",
+      "context_precision": 1.0,
+      "context_recall": 1.0,
+      "faithfulness": 1.0,
+      "failure_source": "no_failure"
+    },
+    {
+      "question": "What is the deployment SLA?",
+      "retrieved_ids": [],
+      "answer": "I do not have enough retrieved evidence to answer.",
+      "context_precision": 0.0,
+      "context_recall": 0.0,
+      "faithfulness": 0.0,
+      "failure_source": "missing_gold"
+    }
+  ]
+}

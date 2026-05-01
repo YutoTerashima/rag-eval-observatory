@@ -58,3 +58,8 @@ The repository includes a 36-document corpus and 24 QA cases:
 [`datasets/full_corpus.json`](datasets/full_corpus.json),
 [`datasets/full_qa_cases.json`](datasets/full_qa_cases.json), and
 [`reports/full_rag_analysis.md`](reports/full_rag_analysis.md).
+
+## Retrieval Metrics
+
+`rag_eval_observatory.metrics` computes hit rate, MRR, and nDCG for full retrieval
+runs. Use `examples/run_full_pipeline.py` to regenerate `reports/full_pipeline_results.json`.
