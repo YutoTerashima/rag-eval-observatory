@@ -1,0 +1,490 @@
+{
+  "repo": "rag-eval-observatory",
+  "generated_at_utc": "2026-05-02T07:25:22.585851+00:00",
+  "git_commit": "2a91490",
+  "artifacts": [
+    {
+      "path": "configs/experiment.yaml",
+      "kind": "configuration",
+      "size_bytes": 309,
+      "sha256": "850213f6bae2ab769cd9e091e3ae1fc858f38a2f0dbadba2610ed275f2ba0c1a",
+      "review_use": "experiment or model configuration"
+    },
+    {
+      "path": "configs/experiment_matrix.yaml",
+      "kind": "configuration",
+      "size_bytes": 894,
+      "sha256": "19ddf3e4c7eda1d93edf36fcdca1983bf066fae5b800e5bcc9c1c2a79ad7cc49",
+      "review_use": "experiment or model configuration"
+    },
+    {
+      "path": "reports/figures/retrieval_metrics.png",
+      "kind": "figure",
+      "size_bytes": 28367,
+      "sha256": "4546a8f5285750ff8f84ab6533ab6b562565637a04d43d88aeccf11dfd77fbbb",
+      "review_use": "visual result analysis"
+    },
+    {
+      "path": "reports/figures/top_tier_review_scores.png",
+      "kind": "figure",
+      "size_bytes": 45756,
+      "sha256": "f9244db1f1eb9013361643eac751f66da9537998a11c0e38ff2ad0b5211aa405",
+      "review_use": "visual result analysis"
+    },
+    {
+      "path": "reports/figures/v2_failure_counts.png",
+      "kind": "figure",
+      "size_bytes": 69939,
+      "sha256": "18ee351baf4b974ae234edd6ffc00412e71aaaf6c015f5c44406f8127477e0c0",
+      "review_use": "visual result analysis"
+    },
+    {
+      "path": "reports/figures/v2_mrr.png",
+      "kind": "figure",
+      "size_bytes": 70146,
+      "sha256": "c6c7c56926a4ea08f1033337f2d4b035e83b77868a103b1bc0096e71138bf43d",
+      "review_use": "visual result analysis"
+    },
+    {
+      "path": "reports/figures/v2_recall_at_k.png",
+      "kind": "figure",
+      "size_bytes": 72338,
+      "sha256": "4a1b8b3a9f1239ee424be4b343a2c382a7eaa1a7c922dc0c580ac9c43a283dc6",
+      "review_use": "visual result analysis"
+    },
+    {
+      "path": "reports/full_rag_results.csv",
+      "kind": "metric_table",
+      "size_bytes": 1385,
+      "sha256": "6ce1f303ec888b9901157233a7e300bdc42479066f26b9adc59eff627b7e5369",
+      "review_use": "supporting artifact"
+    },
+    {
+      "path": "reports/rag_eval_results.csv",
+      "kind": "metric_table",
+      "size_bytes": 361,
+      "sha256": "d8b01c7ac542f167e1d11633a2e693136f69666ca025332612693bb0ff5453a7",
+      "review_use": "supporting artifact"
+    },
+    {
+      "path": "reports/results/claim_evidence_matrix.csv",
+      "kind": "metric_table",
+      "size_bytes": 1485,
+      "sha256": "5ab6c72220c938e7dba784d05e1e25a65afccda76025905c4cdf4ef0ecb05780",
+      "review_use": "measured metrics, indexes, or audit tables"
+    },
+    {
+      "path": "reports/results/retrieval_metrics.csv",
+      "kind": "metric_table",
+      "size_bytes": 147,
+      "sha256": "5b46fa9a0deab9a5c6bb3b719e4ed911aac670f94836e76686d611ce53ebc5be",
+      "review_use": "measured metrics, indexes, or audit tables"
+    },
+    {
+      "path": "reports/results/v2_retrieval_ablations.csv",
+      "kind": "metric_table",
+      "size_bytes": 224,
+      "sha256": "52ebc3ebf6ea9eb72e02ae44a8fabfbb59336a188061387b0ae28676cca79825",
+      "review_use": "measured metrics, indexes, or audit tables"
+    },
+    {
+      "path": "reports/results/v2_retrieval_metrics.csv",
+      "kind": "metric_table",
+      "size_bytes": 681,
+      "sha256": "801fdb16789c741403331fbe03aaa37a06dca2643b5643417bbf03e7b419a792",
+      "review_use": "measured metrics, indexes, or audit tables"
+    },
+    {
+      "path": "pyproject.toml",
+      "kind": "other",
+      "size_bytes": 429,
+      "sha256": "0afa00cd7a6ea40eb2d936efb97f8e92f178d17af7b7d99f5b920b8873d1cd86",
+      "review_use": "supporting artifact"
+    },
+    {
+      "path": "README.md",
+      "kind": "report_or_docs",
+      "size_bytes": 8172,
+      "sha256": "5fcaefb230a1c9fb80b3bb520c7e5af0670b97ab3f743702f8e84ae88dd675fe",
+      "review_use": "first-screen reviewer orientation"
+    },
+    {
+      "path": "docs/pipeline.md",
+      "kind": "report_or_docs",
+      "size_bytes": 182,
+      "sha256": "a3331ea3418f2ddb4ef740a4c47d7e8ed88430ffe35acf0c2e84af21e80a7b57",
+      "review_use": "supporting artifact"
+    },
+    {
+      "path": "docs/research_brief.md",
+      "kind": "report_or_docs",
+      "size_bytes": 823,
+      "sha256": "2c6ed68eaab0e1711d4e2e6f56b6c2b2931605cb00104c51957212c8c2d51a14",
+      "review_use": "supporting artifact"
+    },
+    {
+      "path": "docs/top_tier_reviewer_packet.md",
+      "kind": "report_or_docs",
+      "size_bytes": 3539,
+      "sha256": "587f26d256a602ccdc49f070143ed5e2f85ebadc0b9b6b719cb77857c3215a5c",
+      "review_use": "supporting artifact"
+    },
+    {
+      "path": "reports/case_study.md",
+      "kind": "report_or_docs",
+      "size_bytes": 219,
+      "sha256": "4310769aebd1995a1b089eb0413c56155890354419d20b99041201101769b48c",
+      "review_use": "written analysis and limitations"
+    },
+    {
+      "path": "reports/full_rag_analysis.md",
+      "kind": "report_or_docs",
+      "size_bytes": 1423,
+      "sha256": "6f9b3ae595e016746864fc21a9f0b50050489f4816390551eabf1a35e52bf441",
+      "review_use": "written analysis and limitations"
+    },
+    {
+      "path": "reports/maturity_review.md",
+      "kind": "report_or_docs",
+      "size_bytes": 6825,
+      "sha256": "6656e7b34ac97c222fa22df1901ac4c0c6d77918ca29b5ab6c131b938dd09ba3",
+      "review_use": "written analysis and limitations"
+    },
+    {
+      "path": "reports/rag_eval_observatory_v2_research_report.md",
+      "kind": "report_or_docs",
+      "size_bytes": 6267,
+      "sha256": "ed391a944f3ca7557e5d64bba4a5b4e7dd6a0b9419844b791efbe2b0d95c56c1",
+      "review_use": "written analysis and limitations"
+    },
+    {
+      "path": "reports/rag_eval_report.md",
+      "kind": "report_or_docs",
+      "size_bytes": 442,
+      "sha256": "171729f3e25498978e3194effaf52da4702c969e1906c97d3aebc2e20d7d675f",
+      "review_use": "written analysis and limitations"
+    },
+    {
+      "path": "reports/rag_gpu_retrieval_benchmark.md",
+      "kind": "report_or_docs",
+      "size_bytes": 4384,
+      "sha256": "1f18879f3f0a19aa2d6afb9ff3d36f2763f26e0442d5acb8bb44e1b8d88241ef",
+      "review_use": "written analysis and limitations"
+    },
+    {
+      "path": "reports/real_rag_eval_6k_analysis.md",
+      "kind": "report_or_docs",
+      "size_bytes": 694,
+      "sha256": "0c66af59d3ab84d53b335c2355408eb5de936b3e4d5ffa8115a81558ac224465",
+      "review_use": "written analysis and limitations"
+    },
+    {
+      "path": "reports/retrieval_failure_analysis.md",
+      "kind": "report_or_docs",
+      "size_bytes": 1069,
+      "sha256": "17432a33323a9a72669d601abc8bc2c74a326a00ba0f73bd1008eda56f296adf",
+      "review_use": "written analysis and limitations"
+    },
+    {
+      "path": "scripts/analyze_failures.py",
+      "kind": "source_or_test",
+      "size_bytes": 1454,
+      "sha256": "73bc120f9b39bca7127b96cc30710529a0c277a888cbcf7ab1aaff7c40bd0b09",
+      "review_use": "reproduction entrypoint"
+    },
+    {
+      "path": "scripts/download_data.py",
+      "kind": "source_or_test",
+      "size_bytes": 284,
+      "sha256": "0fd00697a41c45db310f463dd8f5967d3e749c657a6985c578b0ee43837dbd96",
+      "review_use": "reproduction entrypoint"
+    },
+    {
+      "path": "scripts/gpu_experiment.py",
+      "kind": "source_or_test",
+      "size_bytes": 31340,
+      "sha256": "37b2eeade55e59da7b77ab557acc72a3f68fb4746220f136d7039d8281cc5a66",
+      "review_use": "reproduction entrypoint"
+    },
+    {
+      "path": "scripts/make_report.py",
+      "kind": "source_or_test",
+      "size_bytes": 3469,
+      "sha256": "f67806488b727a69a782bc723859362850baf512a7b45c7ee04e3e598bedab62",
+      "review_use": "reproduction entrypoint"
+    },
+    {
+      "path": "scripts/preprocess_data.py",
+      "kind": "source_or_test",
+      "size_bytes": 223,
+      "sha256": "6295125239bb4992208c6613fae4c6af1325bb2e34c03b52cc653de13aed7fbf",
+      "review_use": "reproduction entrypoint"
+    },
+    {
+      "path": "scripts/run_experiment.py",
+      "kind": "source_or_test",
+      "size_bytes": 82,
+      "sha256": "20850eb44719474b29842436f5b147604f2ceaf5b8356cf6630b164da63d3792",
+      "review_use": "reproduction entrypoint"
+    },
+    {
+      "path": "scripts/run_matrix.py",
+      "kind": "source_or_test",
+      "size_bytes": 40862,
+      "sha256": "883126afc52d318b5db78ecb685adc8f2545cc7f7567b55391db241f190b858d",
+      "review_use": "reproduction entrypoint"
+    },
+    {
+      "path": "src/rag_eval_observatory/__init__.py",
+      "kind": "source_or_test",
+      "size_bytes": 29,
+      "sha256": "c468fadb95fd72d7c7fc92fe7b5eaccf082943226106c521547c54fcbda2d15b",
+      "review_use": "importable implementation"
+    },
+    {
+      "path": "src/rag_eval_observatory/bm25.py",
+      "kind": "source_or_test",
+      "size_bytes": 1683,
+      "sha256": "3b83d8e631947b8501894b96e1b21f212bb1ae661fb6ad1a2ef6bf52cff7d44f",
+      "review_use": "importable implementation"
+    },
+    {
+      "path": "src/rag_eval_observatory/core.py",
+      "kind": "source_or_test",
+      "size_bytes": 1936,
+      "sha256": "a66200cae884568652ea5b9b24265d7a4ccf7a5741f2e531385d62024f849849",
+      "review_use": "importable implementation"
+    },
+    {
+      "path": "src/rag_eval_observatory/diagnostics.py",
+      "kind": "source_or_test",
+      "size_bytes": 1477,
+      "sha256": "d1fe12aced66470dc77da00b956c1aa141e539a331bb460783a9fc47859dd051",
+      "review_use": "importable implementation"
+    },
+    {
+      "path": "src/rag_eval_observatory/failure_taxonomy.py",
+      "kind": "source_or_test",
+      "size_bytes": 2538,
+      "sha256": "2cc1e1bda9be21f111c9be632ec4dac6d52c33e138317214f8be346581134106",
+      "review_use": "importable implementation"
+    },
+    {
+      "path": "src/rag_eval_observatory/metrics.py",
+      "kind": "source_or_test",
+      "size_bytes": 875,
+      "sha256": "18b84f1802656ff2cc75124e518b5d5c1b7fb33ab1dc56a7fd8bac99101d1a91",
+      "review_use": "importable implementation"
+    },
+    {
+      "path": "src/rag_eval_observatory/pipeline.py",
+      "kind": "source_or_test",
+      "size_bytes": 1002,
+      "sha256": "068865ba9c26b355c02132fe3e5dd58a143e4b3992082303ae35e9b30e171b2f",
+      "review_use": "importable implementation"
+    },
+    {
+      "path": "src/rag_eval_observatory/report.py",
+      "kind": "source_or_test",
+      "size_bytes": 940,
+      "sha256": "a23c10c8bf59deb9cdaf4fab845b0d7cef89676d6fb2ccb529787fb6eccba86c",
+      "review_use": "importable implementation"
+    },
+    {
+      "path": "src/rag_eval_observatory/reranking.py",
+      "kind": "source_or_test",
+      "size_bytes": 2541,
+      "sha256": "252c5055dd6ab8b484b1c068e204731333d520554ca3148b3187b31435d3fb21",
+      "review_use": "importable implementation"
+    },
+    {
+      "path": "src/rag_eval_observatory/research_report.py",
+      "kind": "source_or_test",
+      "size_bytes": 1502,
+      "sha256": "3ef2d584b37a99f70192316975fffb11145d50ecc944874b4d418dbfc2e6c1de",
+      "review_use": "importable implementation"
+    },
+    {
+      "path": "src/rag_eval_observatory/retrievers.py",
+      "kind": "source_or_test",
+      "size_bytes": 2492,
+      "sha256": "11f3c4530e4022155237f41e6330df7cff49bd1992797101aa23b12bcb8ae5f2",
+      "review_use": "importable implementation"
+    },
+    {
+      "path": "tests/conftest.py",
+      "kind": "source_or_test",
+      "size_bytes": 123,
+      "sha256": "0002b5341b19e442565f99ea21759c27046cf13b6c7f9def582f0f383471a5f5",
+      "review_use": "validation surface"
+    },
+    {
+      "path": "tests/test_bm25_pipeline.py",
+      "kind": "source_or_test",
+      "size_bytes": 308,
+      "sha256": "7baaaff50e58bcb3522cbdd8f55d0c98594e02e4ae6d70bbdba672570f2f31ce",
+      "review_use": "validation surface"
+    },
+    {
+      "path": "tests/test_diagnostics.py",
+      "kind": "source_or_test",
+      "size_bytes": 219,
+      "sha256": "a9052e7399e93ac2440e22b9db9b59d428ca6d03ef75f457a0337c58b9c17bfc",
+      "review_use": "validation surface"
+    },
+    {
+      "path": "tests/test_maturity_assets.py",
+      "kind": "source_or_test",
+      "size_bytes": 931,
+      "sha256": "1d2f31d103b290f0da749956fac89da7b32b2087df51ca5b50c553dc07e8f2dd",
+      "review_use": "validation surface"
+    },
+    {
+      "path": "tests/test_metrics.py",
+      "kind": "source_or_test",
+      "size_bytes": 271,
+      "sha256": "b07e07e1474c47b4c823b2f561af6efb9bf1805025e547c5056c910a02fd416f",
+      "review_use": "validation surface"
+    },
+    {
+      "path": "tests/test_rag_eval.py",
+      "kind": "source_or_test",
+      "size_bytes": 292,
+      "sha256": "184f1892bd7978477a8f1847c7876750d9f5ab95ab6a57c3ce29b2b483abf65d",
+      "review_use": "validation surface"
+    },
+    {
+      "path": "tests/test_real_experiment_artifacts.py",
+      "kind": "source_or_test",
+      "size_bytes": 1187,
+      "sha256": "7ada364b78f2151dbcd3ef56e72510e52451c83b3642efa5d33647539b28949e",
+      "review_use": "validation surface"
+    },
+    {
+      "path": "tests/test_real_rag_dataset.py",
+      "kind": "source_or_test",
+      "size_bytes": 401,
+      "sha256": "259f2d1a2f859e62c7c59b432a985c8d6e09eec16b03c197c8677f2024d7356b",
+      "review_use": "validation surface"
+    },
+    {
+      "path": "tests/test_report.py",
+      "kind": "source_or_test",
+      "size_bytes": 198,
+      "sha256": "0f5a75b50cbafd5b4a7023df98006e7e23d2f0f0a5f8e29f87073e81a1917c87",
+      "review_use": "validation surface"
+    },
+    {
+      "path": "tests/test_top_tier_quality_gate.py",
+      "kind": "source_or_test",
+      "size_bytes": 1942,
+      "sha256": "ef892c5898daa21756e3ce7620a2d9d09023d7ecfc7f93b73cd086df91ff9859",
+      "review_use": "validation surface"
+    },
+    {
+      "path": "tests/test_v2_research_artifacts.py",
+      "kind": "source_or_test",
+      "size_bytes": 1489,
+      "sha256": "c0b5d5fa3d6744af99ff7ee8d844df24f340518b59a010b68514ac0709be1d10",
+      "review_use": "validation surface"
+    },
+    {
+      "path": "reports/bm25_results.json",
+      "kind": "structured_result",
+      "size_bytes": 1432,
+      "sha256": "7c8d9df713f9928e7f78e6982be8d710df7f90f505b6be462d3092e0d8c6ccc8",
+      "review_use": "supporting artifact"
+    },
+    {
+      "path": "reports/diagnostics.json",
+      "kind": "structured_result",
+      "size_bytes": 1473,
+      "sha256": "8c79fb9e648c768927efe9443e461e0dd351416443496146e023554e0b4fb699",
+      "review_use": "supporting artifact"
+    },
+    {
+      "path": "reports/full_pipeline_results.json",
+      "kind": "structured_result",
+      "size_bytes": 7785,
+      "sha256": "f838b0f17067f2ba56a4069501bc5ce6d9551ead205fa99750bb5a643b56adbf",
+      "review_use": "supporting artifact"
+    },
+    {
+      "path": "reports/rag_eval_results.json",
+      "kind": "structured_result",
+      "size_bytes": 1197,
+      "sha256": "0de4c00d5e860e4f4c23003bd3468c65a9fafeefd073b717a87bf23bf738dc92",
+      "review_use": "supporting artifact"
+    },
+    {
+      "path": "reports/real_rag_eval_6k_analysis.json",
+      "kind": "structured_result",
+      "size_bytes": 378,
+      "sha256": "f9848b5b356afe5ed087a59d4beab2db419fb601c8cc563adaf2c2caabc6b65f",
+      "review_use": "supporting artifact"
+    },
+    {
+      "path": "reports/results/artifact_manifest.json",
+      "kind": "structured_result",
+      "size_bytes": 17918,
+      "sha256": "5c741b1072610a8b33674c3170f7cdff859d4a7b88da423acd9facef3bd6c153",
+      "review_use": "measured metrics, indexes, or audit tables"
+    },
+    {
+      "path": "reports/results/experiment_index.json",
+      "kind": "structured_result",
+      "size_bytes": 2858,
+      "sha256": "d42da6d9d1c347ac8cbbaf397effd874dc4824972818123216029e818b0128f6",
+      "review_use": "measured metrics, indexes, or audit tables"
+    },
+    {
+      "path": "reports/results/reproducibility_manifest.json",
+      "kind": "structured_result",
+      "size_bytes": 1412,
+      "sha256": "59e80b5c8e8044e91d833f9cb94abf51f3ca516be33a6e640bb66e3f73f6069e",
+      "review_use": "measured metrics, indexes, or audit tables"
+    },
+    {
+      "path": "reports/results/retrieval_failures.json",
+      "kind": "structured_result",
+      "size_bytes": 5384,
+      "sha256": "1559d151e8d6180ecdceb308ac1cc119ae2cf48f2ac07ecd7fe033074bf1cf03",
+      "review_use": "measured metrics, indexes, or audit tables"
+    },
+    {
+      "path": "reports/results/retrieval_metrics.json",
+      "kind": "structured_result",
+      "size_bytes": 675,
+      "sha256": "3b091220f0571d41e450d29cf7ef73d894a2b7de454eb95d2c9f1239570c9234",
+      "review_use": "measured metrics, indexes, or audit tables"
+    },
+    {
+      "path": "reports/results/top_tier_quality_gate.json",
+      "kind": "structured_result",
+      "size_bytes": 641,
+      "sha256": "df1d3f5548db75e90fe38bb4abab4777b59972f70cdde2431116ae1a78678ea2",
+      "review_use": "measured metrics, indexes, or audit tables"
+    },
+    {
+      "path": "reports/results/v2_failure_analysis.json",
+      "kind": "structured_result",
+      "size_bytes": 11789,
+      "sha256": "5ec953a1f77d6fddff6e3c7807a516764c10db161f577be2fef7961a944e2efb",
+      "review_use": "measured metrics, indexes, or audit tables"
+    },
+    {
+      "path": "reports/results/v2_retrieval_failures.json",
+      "kind": "structured_result",
+      "size_bytes": 36535,
+      "sha256": "86c053cd5e0cc5ecec5f5efa47c63314cc7c68696bb8b0e885968ba7cd057858",
+      "review_use": "measured metrics, indexes, or audit tables"
+    },
+    {
+      "path": "notebooks/maturity_walkthrough.ipynb",
+      "kind": "walkthrough_or_notebook",
+      "size_bytes": 2175,
+      "sha256": "2573df4c6ba3ba717659bee1c60157ba3095c9b0543c8d0e84a81940868fdb1c",
+      "review_use": "walkthrough or original notebook evidence"
+    }
+  ]
+}

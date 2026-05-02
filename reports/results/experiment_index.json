@@ -57,6 +57,12 @@
       "ndcg": 0.1613106245883801,
       "rows": 5978,
       "documents": 21827
+    },
+    {
+      "experiment_id": "top_tier_review_gate",
+      "artifact_count": 6,
+      "coverage_score": 1.0,
+      "review_value": "evidence-backed claims, artifact provenance, reproducibility manifest, and strict audit gate"
     }
   ],
   "artifacts": [
@@ -64,7 +70,13 @@
     "reports\\results\\v2_retrieval_failures.json",
     "reports\\figures\\v2_failure_counts.png",
     "reports\\figures\\v2_mrr.png",
-    "reports\\figures\\v2_recall_at_k.png"
+    "reports\\figures\\v2_recall_at_k.png",
+    "docs/top_tier_reviewer_packet.md",
+    "reports/results/claim_evidence_matrix.csv",
+    "reports/results/artifact_manifest.json",
+    "reports/results/reproducibility_manifest.json",
+    "reports/results/top_tier_quality_gate.json",
+    "reports/figures/top_tier_review_scores.png"
   ],
   "discussion": "RAG failures usually look like generation failures, but the root cause is often retrieval miss or answerability confusion. V2 separates retrieval recall from answerability-aware diagnostics.",
   "total_runtime_seconds": 48.477
